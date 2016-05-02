@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #6F90A2;
+    font-family: 'Open Sans', sans-serif;
+    color: #6F90A2;
+    font-size: 20px;
+}
+.container {
+    width: 100%;
+    height: 730px;
+    
+}
+
+.row {
+    height: 365px;
+}
+
+h1 {
+	font-size: 45px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+hr {
+    border-top: 1px solid #6F90A2;
+}
+
+span{
+    font-size: 30px;
+    font-style: oblique;
+}
+#one {
+    background-color: skyblue;
+}
+
+#bio{
+    background-color: #032436;
+    height: 270px;
+    border-bottom: 2px solid  #28546C;
+
+}
+
+#title{
+    padding-top: 20px;
+}
+
+#bioPic{
+    border: 5px solid #6F90A2;
+    border-radius: 10px;
+    margin: 25px 0px 0px 10px;
+    width: 100%;
+    height: auto;
+}
+
+#contactInfo {
+    background-color: #113B51;
+    height: 40px;
+    border-bottom: 2px solid  #28546C;
+}
+
+.contact {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#workExperience{
+    background-color: #6F90A2;
+    height: 420px;
+}
+
+#two {
+    background-color: saddlebrown;
+}
+#skills {
+    background-color: red;
+    height: inherit;
+}
+
+#achievements {
+    background-color: blueviolet;
+    height: inherit;
+}
+
+#three {
+    background-color: green;
+}
+
+#education {
+    background-color: black;
+    height: inherit;
+}
+
+#languagues {
+    background-color: white;
+    height: 365px;
+}
+
+#interest {
+    background-color: purple;
+    height: 365px;   
+}
+
+/*Pallete
+
+ As hex codes 
+
+.color-primary-0 { color: #28546C }	/ Main Primary color /
+.color-primary-1 { color: #6F90A2 }
+.color-primary-2 { color: #477187 }
+.color-primary-3 { color: #113B51 }
+.color-primary-4 { color: #032436 }*/
