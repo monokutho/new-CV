@@ -4,7 +4,6 @@
 body{
     background-color: #6F90A2;
     font-family: 'Open Sans', sans-serif;
-    color: #6F90A2;
     font-size: 20px;
 }
 .container {
@@ -23,54 +22,52 @@ h1 {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
+    opacity: 0.8;
 }
 
-hr {
-    border-top: 1px solid #6F90A2;
-}
-
-span{
-    font-size: 30px;
-    font-style: oblique;
-}
 #one {
-    background-color: skyblue;
+    background-image: url(/img/cv-intro_bnw.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 670px;
+    
+    
 }
 
 #bio{
-    background-color: #032436;
-    height: 270px;
-    border-bottom: 2px solid  #28546C;
-
+    background-color: transparent;
+    height: 670px;
+    text-align: center;
+    color: white;
 }
 
 #title{
-    padding-top: 20px;
+    padding: 20%;
 }
 
-#bioPic{
-    border: 5px solid #6F90A2;
-    border-radius: 10px;
-    margin: 25px 0px 0px 10px;
-    width: 100%;
-    height: auto;
+#sinopsis {
+    display: none;
 }
 
 #contactInfo {
-    background-color: #113B51;
+    background-color: black;
+    opacity: 0.8;
     height: 40px;
-    border-bottom: 2px solid  #28546C;
+    color: white;
 }
 
 .contact {
-    padding: 10px;
+    padding: 7px;
     font-size: 15px;
     text-align: center;
 }
 
 #workExperience{
     background-color: #6F90A2;
-    height: 420px;
+    height: 400px;
+    color: #032436;
+    text-align: center;
+    
 }
 
 #two {
