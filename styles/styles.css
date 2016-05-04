@@ -16,8 +16,10 @@ body{
     height: 365px;
 }
 
+/*Intro - Section One*/
+
 h1 {
-	font-size: 45px;
+	font-size: 55px;
 	font-style: bold;
 	font-variant: normal;
 	font-weight: 500;
@@ -29,30 +31,13 @@ h1 {
     background-image: url(/img/cv-intro_bnw.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
-    height: 670px;
-    
-    
+    height: 730px;
 }
 
 #bio{
     background-color: transparent;
-    height: 670px;
+    height: 730px;
     text-align: center;
-    color: white;
-}
-
-#title{
-    padding: 20%;
-}
-
-#sinopsis {
-    display: none;
-}
-
-#contactInfo {
-    background-color: black;
-    opacity: 0.8;
-    height: 40px;
     color: white;
 }
 
@@ -61,6 +46,35 @@ h1 {
     font-size: 15px;
     text-align: center;
 }
+
+#contactInfo {
+    height: 40px;
+    color: transparent;
+}
+
+#title{
+    position: absolute;
+    margin-top: 220px;
+}
+
+#sinopsis {
+    position: absolute;
+    margin-top: 220px;
+    display: none;    
+}
+
+#intro_switch {
+    margin-top: 400px;
+    position: absolute;
+    color: white;
+}
+
+.switch .icon-on {
+    display: none;
+}
+
+
+/*Work Experience - Section Two*/
 
 #workExperience{
     background-color: #6F90A2;
