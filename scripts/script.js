@@ -5,7 +5,8 @@ $(document).ready(function (){
         $(this).css('display','none');
         $('#title').fadeOut('fast', function() {
             $('#sinopsis').fadeIn('fast');
-        });                
+        });
+        $('#one').css('backgroundImage','url(/img/cv-intro_bnw.jpg)');
     });
     $('.icon-on').click(function() {
         $('.icon-off').css('display','inline');
@@ -13,6 +14,7 @@ $(document).ready(function (){
         $(this).css('display','none');
         $('#sinopsis').fadeOut('fast', function() {
             $('#title').fadeIn('fast');
-        });                
+        });
+        $('#one').css('backgroundImage','url(/img/cv-intro.jpg)')
     });
 });

@@ -2,18 +2,19 @@
     margin: 0px;
 }
 body{
-    background-color: #6F90A2;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #113B51;
+    font-family: 'Source Code Pro', serif;
+    font-weight: 200;
     font-size: 20px;
 }
 .container {
     width: 100%;
-    height: 730px;
-    
+    height: 720px;
+    align-content: center;
 }
 
 .row {
-    height: 365px;
+
 }
 
 /*Intro - Section One*/
@@ -27,9 +28,27 @@ h1 {
     opacity: 0.8;
 }
 
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    padding: 40px;
+    text-align: center;
+}
+
+img {
+    padding: 60px;
+    }
+
+li {
+   padding: 20px;
+}
+
 #one {
-    background-image: url(/img/cv-intro_bnw.jpg);
-    background-size: cover; 
+    background-image: url(/img/cv-intro.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 730px;
 }
@@ -60,7 +79,7 @@ h1 {
 #sinopsis {
     position: absolute;
     margin-top: 220px;
-    display: none;    
+    display: none;
 }
 
 #intro_switch {
@@ -76,50 +95,91 @@ h1 {
 
 /*Work Experience - Section Two*/
 
-#workExperience{
-    background-color: #6F90A2;
-    height: 400px;
-    color: #032436;
-    text-align: center;
-    
-}
-
 #two {
     background-color: saddlebrown;
 }
+
+
+#workExperience{
+    background-color: #C6DAE4;
+    height: inherit;
+    color: #032436;
+
+}
+
+.job {
+    height: 710px;
+}
+
+/*Skills - Section Three*/
+#three {
+    background-color: green;
+}
+
 #skills {
     background-color: red;
     height: inherit;
 }
 
-#achievements {
-    background-color: blueviolet;
-    height: inherit;
-}
+/*Information - Section Four */
 
-#three {
-    background-color: green;
+.info {
+    border: 1px solid #032436;
 }
 
 #education {
-    background-color: black;
+    background-color: white;
     height: inherit;
 }
 
-#languagues {
-    background-color: white;
-    height: 365px;
+#interest {
+    background-color: #C6DAE4;
 }
 
-#interest {
-    background-color: purple;
-    height: 365px;   
+#achievements {
+    background-color: #C6DAE4;
+    height: inherit;
 }
+
+#languages {
+    margin-top: -125px;
+    background-color: white;
+}
+
+.graph{
+    display: inline-flex;
+    margin-top: 10px;
+    
+    
+}
+
+#blueCircle {
+    background: #477187;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #032436;
+    border-radius: 50%;
+    margin-right: 5px; 
+    
+}
+#whiteCircle {
+    background: white;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #032436;
+    border-radius: 50%;
+    
+}
+
+/*Music Box - Section Five*/
+
+
+
 
 /*Pallete
 
- As hex codes 
-
+ As hex codes
+#C6DAE4 el mas blanco
 .color-primary-0 { color: #28546C }	/ Main Primary color /
 .color-primary-1 { color: #6F90A2 }
 .color-primary-2 { color: #477187 }
