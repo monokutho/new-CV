@@ -87,6 +87,13 @@ li {
     color: white;
 }
 
+#firstPageDown {
+    margin-top: 600px;
+    position: absolute;
+    color: white;
+    display: none;
+}
+
 .switch .icon-on {
     display: none;
 }
@@ -96,6 +103,7 @@ li {
 
 #two {
     background-color: saddlebrown;
+    display: none;
 }
 
 
@@ -109,6 +117,23 @@ li {
 .job {
     height: 100vh;
     ;
+}
+
+#jobTitle1 {
+    opacity: 0;
+}
+
+#jobImg1 {
+   opacity: 0; 
+}
+
+#jobData1 {
+    opacity: 0;
+}
+
+
+#secondPageDown {
+    
 }
 
 /*Skills - Section Three*/
