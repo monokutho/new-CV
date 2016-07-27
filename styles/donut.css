@@ -1,0 +1,36 @@
+ body {
+            background-color: #FFFFFF;
+        }
+        
+        #chart-e1, #chart-e2 , #chart-e3, #chart-e4, #chart-e5, #chart-e6, #chart-e7,
+        #chart-e8, #chart-e9, #chart-e10, #chart-e11, #chart-e12 {
+            height: 140px;
+        }
+        
+        .ct-chart-donut .ct-series-a .ct-slice-donut {
+            stroke: #802615;
+           
+        }
+        
+        .ct-chart-donut .ct-series-b .ct-slice-donut {
+            stroke: rgba(0, 0, 0, .4);
+            opacity: 1;
+        }
+        
+        .ct-chart-donut .ct-fill-donut .ct-slice-donut {
+            stroke: rgba(0, 0, 0, .4);
+            opacity: 1;
+        }
+        
+        .ct-fill-donut-label h3 {
+            font-weight: bolder;
+        }
+        
+        .ct-fill-donut-label .small {
+            font-size: 0.6em;
+        }
+        
+        .ct-fill-donut-label i {
+            font-size: 1.5em;
+            color: rgba(0, 0, 0, .4);
+        }

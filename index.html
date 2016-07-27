@@ -3,13 +3,18 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santiago González - Front End Web Developer</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="node_modules/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
+    <link href="styles/font-awesome.min.css" rel="stylesheet" >
+    <link href="styles/chartist.min.css" rel="stylesheet" >
     <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+    <link href="styles/donut.css" rel="stylesheet" />
+    
 </head>
 
 <body onload="">
@@ -97,10 +102,69 @@
 
 
     <section id="three">
-        <div class="row">
-            <div class="col-sm-12 col-md-12" id="skills"></div>
-
+        <div class="row title text-center">
+        <div class="col-md-12">
+            <h1>SKILLS</h1>
         </div>
+    </div>
+    <div class="col-md-4">
+        <div class="row subtitles text-center">
+            <h4>Programming Langs &#38 Libs</h4>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e1"></div>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e4"></div>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e7"></div>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e10"></div>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+        <div class="row subtitles text-center">
+            <h4>Frameworks &#38 Enviroments</h4>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e2"></div>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e5"></div>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e8"></div>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e11"></div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="row subtitles text-center">
+            <h4>Utilities</h4>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e3"></div>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e6"></div>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e9"></div>
+        </div>
+        <div class="row row-chart">
+            <div id="chart-e12"></div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary" type="submit">Button</button>
+        </div>
+    </div>
     </section>
 
     <section id="four">
@@ -209,6 +273,9 @@
     </section>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="scripts/chartist.min.js"></script>
+    <script src="scripts/chartist-plugin-fill-donut.js"></script>
+    <script src="scripts/skillDonuts.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/index.js"></script>
 </body>
