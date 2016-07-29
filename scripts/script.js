@@ -9,7 +9,7 @@ $('.icon-off').click(function () {
         $('#sinopsis').fadeIn('1000');
     });
     $('#one').css({'transition': 'background-image 1s ease-in-out','backgroundImage': 'url(/img/cv-intro_bnw.jpg)'});
-    $('#firstPageDown').animate({opacity: '1'}, 4000);
+    $('#firstPageDown').animate({opacity: '1'}, 3000);
 });
 $('.icon-on').click(function () {
     $(this).css('display', 'none');

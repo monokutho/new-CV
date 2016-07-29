@@ -10,10 +10,6 @@ body{
     align-content: center;
 }
 
-
-
-/*Intro - Section One*/
-
 h1 {
 	font-size: 55px;
 	font-style: bold;
@@ -46,6 +42,13 @@ img {
 li {
    padding: 20px;
 }
+
+.pageDownBtn .fa{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+/*Intro - Section One*/
 
 #one {
     background-image: url(/img/cv-intro.jpg);
@@ -146,8 +149,8 @@ li {
 }
 
 #skills {
-    height: inherit;
-    /*height: 100vh;*/
+    /*height: inherit;
+    height: 100vh;*/
 }
 
 /*Information - Section Four */
