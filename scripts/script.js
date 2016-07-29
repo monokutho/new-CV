@@ -4,22 +4,22 @@ $(document).ready(function () {
 $('.icon-off').click(function () {
     $(this).css('display', 'none');
     $('.icon-on').css('display', 'inline');
-    $('#contactInfo').css('color', 'white');
-    $('#title').fadeOut('fast', function () {
-        $('#sinopsis').fadeIn('fast');
+    $('#contactInfo').animate({opacity: '1'}, 2000);
+    $('#title').fadeOut('1000', function () {
+        $('#sinopsis').fadeIn('1000');
     });
-    $('#one').css('backgroundImage', 'url(/img/cv-intro_bnw.jpg)');
-    $('#firstPageDown').css('display', 'inline');
+    $('#one').css({'transition': 'background-image 1s ease-in-out','backgroundImage': 'url(/img/cv-intro_bnw.jpg)'});
+    $('#firstPageDown').animate({opacity: '1'}, 4000);
 });
 $('.icon-on').click(function () {
     $(this).css('display', 'none');
     $('.icon-off').css('display', 'inline');
-    $('#contactInfo').css('color', 'transparent');
+    $('#contactInfo').animate({opacity: '0'}, 'fast');
     $('#sinopsis').fadeOut('fast', function () {
         $('#title').fadeIn('fast');
     });
     $('#one').css('backgroundImage', 'url(/img/cv-intro.jpg)')
-    $('#firstPageDown').css('display', 'none');
+    $('#firstPageDown').animate({opacity: '0'}, 'fast');
 });
 
 //Intro - Work Experience Transit

@@ -55,6 +55,7 @@ li {
     
 }
 
+
 #bio{
     background-color: transparent;
     height: 100vh;
@@ -70,7 +71,8 @@ li {
 
 #contactInfo {
     height: 40px;
-    color: transparent;
+    color: white;
+    opacity: 0;
 }
 
 #title{
@@ -94,7 +96,7 @@ li {
     margin-top: 600px;
     position: absolute;
     color: white;
-    display: none;
+    opacity: 0;
 }
 
 .switch .icon-on {
