@@ -7,13 +7,10 @@ body{
 }
 .container {
     width: 100%;
-    height: 100vh;
     align-content: center;
 }
 
-.row {
 
-}
 
 /*Intro - Section One*/
 
@@ -27,13 +24,19 @@ h1 {
 }
 
 h2 {
+    font-size: 40px;
+    padding: 20px;
     text-align: center;
 }
 
 h3 {
-    font-size: 40px;
-    padding: 40px;
     text-align: center;
+    font-size: 30px;
+}
+
+h4 {
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 img {
@@ -102,8 +105,7 @@ li {
 /*Work Experience - Section Two*/
 
 #two {
-    background-color: saddlebrown;
-    display: none;
+    /*display: none;*/
 }
 
 
@@ -114,21 +116,21 @@ li {
 
 }
 
-.job {
-    height: 100vh;
-    ;
+.jobData {
+    padding: 80px;
 }
 
 #jobTitle1 {
-    opacity: 0;
+    opacity: 1;
 }
 
 #jobImg1 {
-   opacity: 0; 
+   text-align: center;
+    opacity: 1; 
 }
 
 #jobData1 {
-    opacity: 0;
+    opacity: 1;
 }
 
 
@@ -142,9 +144,8 @@ li {
 }
 
 #skills {
-    background-color: red;
     height: inherit;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 /*Information - Section Four */
@@ -185,8 +186,8 @@ li {
 
 #blueCircle {
     background: #477187;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border: 3px solid #032436;
     border-radius: 50%;
     margin-right: 5px; 
@@ -194,8 +195,8 @@ li {
 }
 #whiteCircle {
     background: white;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border: 3px solid #032436;
     border-radius: 50%;
     

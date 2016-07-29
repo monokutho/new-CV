@@ -23,14 +23,14 @@ $('.icon-on').click(function () {
 });
 
 //Intro - Work Experience Transit
-$('#firstPageDown').click(function () {
+/*$('#firstPageDown').click(function () {
     $('#two').css('display', 'inline');
     $('html, body').animate({
         scrollTop: $("#job1").offset().top
     }, 1000, function() {
         $('#jobTitle1, #jobImg1, #jobData1').animate({opacity: 1}, 300);
         })
-    });
+    });*/
     
 
 

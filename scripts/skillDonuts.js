@@ -14,7 +14,7 @@ var chart1 = new Chartist.Pie('#chart-e1', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -46,7 +46,7 @@ var chart2 = new Chartist.Pie('#chart-e2', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -78,7 +78,7 @@ var chart3 = new Chartist.Pie('#chart-e3', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -110,7 +110,7 @@ var chart4 = new Chartist.Pie('#chart-e4', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -142,7 +142,7 @@ var chart5 = new Chartist.Pie('#chart-e5', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -174,7 +174,7 @@ var chart6 = new Chartist.Pie('#chart-e6', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -206,7 +206,7 @@ var chart7 = new Chartist.Pie('#chart-e7', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -238,7 +238,7 @@ var chart8 = new Chartist.Pie('#chart-e8', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -270,7 +270,7 @@ var chart9 = new Chartist.Pie('#chart-e9', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -302,7 +302,7 @@ var chart10 = new Chartist.Pie('#chart-e10', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -334,7 +334,7 @@ var chart11 = new Chartist.Pie('#chart-e11', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -366,7 +366,7 @@ var chart12 = new Chartist.Pie('#chart-e12', {
     labels: ['', '']
 }, {
     donut: true,
-    donutWidth: 18,
+    donutWidth: 15,
     startAngle: 210,
     total: 260,
     showLabel: false,
@@ -386,15 +386,12 @@ var chart12 = new Chartist.Pie('#chart-e12', {
 
 charts.push(chart1, chart2, chart3, chart4, chart5, chart6, chart7, chart8, chart9, chart10, chart11, chart12);
 
-console.log(document.getElementById('#chart-e1'));
-
 function drawCharts(item) {
 
     item.on('draw', function (data) {
         if (data.type === 'slice' && data.index == 0) {
             // Get the total path length in order to use for dash array animation
             var pathLength = data.element._node.getTotalLength();
-            console.log(pathLength);
             // Set a dasharray that matches the path length as prerequisite to animate dashoffset
             data.element.attr({
                 'stroke-dasharray': pathLength + 'px ' + pathLength + 'px'

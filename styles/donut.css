@@ -4,7 +4,8 @@
         
         #chart-e1, #chart-e2 , #chart-e3, #chart-e4, #chart-e5, #chart-e6, #chart-e7,
         #chart-e8, #chart-e9, #chart-e10, #chart-e11, #chart-e12 {
-            height: 140px;
+            height: 110px;
+            font-weight: 400;
         }
         
         .ct-chart-donut .ct-series-a .ct-slice-donut {
@@ -14,7 +15,7 @@
         
         .ct-chart-donut .ct-series-b .ct-slice-donut {
             stroke: rgba(0, 0, 0, .4);
-            opacity: 1;
+            opacity: 0;
         }
         
         .ct-chart-donut .ct-fill-donut .ct-slice-donut {
