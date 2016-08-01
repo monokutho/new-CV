@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     background-color: #113B51;
     font-family: 'Source Code Pro', serif;
     font-weight: 200;
@@ -8,7 +9,7 @@ body{
 .container {
     width: 100%;
     align-content: center;
-}
+    }
 
 h1 {
 	font-size: 55px;
@@ -35,12 +36,17 @@ h4 {
     padding-top: 10px;
 }
 
+h5 {
+    font-size: 15px;
+}
+
 img {
     padding: 60px;
     }
 
 li {
-   padding: 20px;
+    font-size: 16px;
+    padding: 15px;
 }
 
 .pageDownBtn .fa{
@@ -145,7 +151,7 @@ li {
 
 /*Skills - Section Three*/
 #three {
-    background-color: white;
+    /*background-color: white*/
 }
 
 #skills {
@@ -153,34 +159,45 @@ li {
     height: 100vh;*/
 }
 
+.row-charts {
+   }
+
 /*Information - Section Four */
 
+/*#four {
+    padding: 10px;
+}*/
+
 .info {
-    border: 1px solid #032436;
-}
+    margin: 15px;
+    border: 1px solid #018E89 ;
+    border-radius: 3%;
+    background-color: #018E89 ;
+    color: white;
+    }
 
 #education {
-    background-color: white;
     height: inherit;
+    margin-left: 50px;
 }
 
 #interest {
-    background-color: #C6DAE4;
+    margin-right: 15px;
+    margin-left: 50px;
 }
 
 #interest p {
     padding: 50px;
+    font-size: 16px;
 }
 
 #achievements {
-    background-color: #C6DAE4;
     height: inherit;
 }
 
 #languages {
-    margin-top: -40px;
-    background-color: white;
-}
+    margin-top: 0px;
+    }
 
 .graph{
     display: inline-flex;
@@ -190,10 +207,10 @@ li {
 }
 
 #blueCircle {
-    background: #477187;
+    background: #055C58 ;
     width: 25px;
     height: 25px;
-    border: 3px solid #032436;
+    border: 3px solid #002624;
     border-radius: 50%;
     margin-right: 5px; 
     
@@ -202,7 +219,7 @@ li {
     background: white;
     width: 25px;
     height: 25px;
-    border: 3px solid #032436;
+    border: 3px solid #002624;
     border-radius: 50%;
     
 }
@@ -220,12 +237,33 @@ li {
 .color-primary-1 { color: #6F90A2 }
 .color-primary-2 { color: #477187 }
 .color-primary-3 { color: #113B51 }
-.color-primary-4 { color: #032436 }*/
+.color-primary-4 { color: #032436 }
+
+Pallete II
+
+As hex codes 
+
+.color-primary-0 { color: #055C58 }	/Main Primary color
+.color-primary-1 { color: #018E89 }
+.color-primary-2 { color: #07716D }
+.color-primary-3 { color: #00403E }
+.color-primary-4 { color: #002624 }
+
+.color-complement-0 { color: #974708 }	/Main Complement color
+.color-complement-1 { color: #EB6902 }
+.color-complement-2 { color: #BA590B }
+.color-complement-3 { color: #692F00 }
+.color-complement-4 { color: #3E1C00 }
+
+
+*/
+
+
 
 /*--------------MUSIC BOX---------------*/
 
 #instrument {
-    margin-top: -14px;
+    margin-top: 0px;
     background-color: black;
     height: 100vh;
     width: 100%;
