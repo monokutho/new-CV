@@ -401,7 +401,7 @@ function drawCharts(item) {
             var animationDefinition = {
                 'stroke-dashoffset': {
                     id: 'anim' + data.index,
-                    dur: 2200,
+                    dur: 3200,
                     from: -pathLength + 'px',
                     to: '0px',
                     easing: Chartist.Svg.Easing.easeOutQuint,

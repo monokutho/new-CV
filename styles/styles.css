@@ -52,6 +52,7 @@ li {
 .pageDownBtn .fa{
     padding-top: 30px;
     padding-bottom: 15px;
+    opacity: 0;
 }
 
 /*Intro - Section One*/
@@ -151,16 +152,34 @@ li {
 
 /*Skills - Section Three*/
 #three {
-    /*background-color: white*/
+    color: #055C58;
 }
 
 #skills {
-    /*height: inherit;
-    height: 100vh;*/
+    
 }
 
-.row-charts {
-   }
+#chartsMiddle {
+    background-color: #055C58;
+}
+
+.bootPadSkills {
+    margin-left: -30px;
+}
+
+.bootPadEdu {
+    margin-left: -50px   
+}
+
+.charts {
+    background-color: #018E89;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
 
 /*Information - Section Four */
 
@@ -171,7 +190,7 @@ li {
 .info {
     margin: 15px;
     border: 1px solid #018E89 ;
-    border-radius: 3%;
+    border-radius: 2%;
     background-color: #018E89 ;
     color: white;
     }
@@ -184,6 +203,7 @@ li {
 #interest {
     margin-right: 15px;
     margin-left: 50px;
+    background-color: #055C58;
 }
 
 #interest p {
@@ -193,6 +213,7 @@ li {
 
 #achievements {
     height: inherit;
+    background-color: #055C58;
 }
 
 #languages {

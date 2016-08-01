@@ -9,7 +9,7 @@
         }
         
         .ct-chart-donut .ct-series-a .ct-slice-donut {
-            stroke: #802615;
+            stroke: #EB6902 ;
            
         }
         
@@ -19,7 +19,7 @@
         }
         
         .ct-chart-donut .ct-fill-donut .ct-slice-donut {
-            stroke: rgba(0, 0, 0, .4);
+            stroke: #692F00;
             opacity: 1;
         }
         
