@@ -1,0 +1,271 @@
+@media only screen and (max-width: 320px) {
+    
+    body{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        align-content: center;
+        height: auto;
+    }
+    
+    h1 {
+        font-size: 22px;
+        font-style: bold;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 26.4px;
+        opacity: 0.8;
+    }
+
+    h2 {
+        font-size: 15px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    h4 {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    h5 {
+        font-size: 10px;
+    }
+    
+    img {
+        padding: 0px;
+        }
+
+    li {
+        font-size: 16px;
+        padding: 5px;
+    }
+    
+    /*-----------------------------INTRO--------------------------------*/
+    
+    #one {
+        background-image: url(/img/cv-intro.jpg);
+        background-position:50% 50%;
+        height: 100vh;
+
+    }
+    
+    #title{
+        margin-top: 120px;
+    }
+
+    #title h2 {
+        font-size: 11px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #sinopsis {
+        margin-top: 140px;
+        font-size: 14px;
+    }
+
+    #intro_switch {
+        margin-top: 450px;
+        margin-left: 0px;
+    }
+
+    #firstPageDown {
+        margin-top: 530px;
+        margin-left: 0px
+    }
+    
+    /*---------------------------PROJECTS----------------------------*/
+    
+    .workBtn {
+        margin-left: 0px;
+    }
+
+    .jobDataR {
+        color: white;
+        border-radius: 10px;
+        }
+
+    .jobDataR li {
+        font-size: 12px;
+    }
+
+    .jobDataL {
+        color: white;
+        border-radius: 10px;
+    }
+
+    .jobDataL li {
+        font-size: 12px;
+    }
+
+    #jobTitle {
+        padding-top: 0px;
+        color: #055C58;
+        opacity: 1;
+    }
+
+    #jobImg1 {
+        opacity: 1;
+        }
+
+    #jobData1 {
+        margin-top: 0px;
+        opacity: 1;
+        background-color: #018E89;
+
+    }
+
+    #job2 {
+        padding-top: 4px;
+        background-color: #C9F3F3;
+
+    }
+
+    #jobImg2 {
+        opacity: 1;
+        margin-top: 0px;
+    }
+
+    #jobData2 {
+        margin-top: 0px;
+        opacity: 1;
+        background-color: #055C58;
+
+    }
+
+    #job3 {
+        padding-top: 0px;
+
+    }
+    
+    #three {
+        background-color: #C9F3F3;
+        color: #055C58;
+    }
+
+    #skills {
+
+    }
+
+    #skillsTitle {
+        font-size: 40px;
+        padding: 10px;
+        font-style: bold;
+        font-variant: normal;
+        font-weight: 500;
+        color: #018E89;
+    }
+
+    #chartsMiddle {
+        background-color: #055C58;
+    }
+
+    .bootPadSkills {
+        margin-left: 0px;
+    }
+
+    .bootPadEdu {
+        margin-left: 0px   
+    }
+
+    .charts {
+        background-color: #018E89;
+        padding-bottom: 20px;
+        color: white;
+        border-radius: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    .skillBtn {
+        margin-left: 0px;
+        }
+
+    /*--------------------------INFORMATION - Section Four------------------------------------*/
+
+    #four {
+        margin-left: 0px;
+        padding-top: 25px;
+        background-color: #E2FBFB;
+    }
+
+    #four li {
+        padding: 10px;
+    }
+
+    .edBtn {
+        margin-left: 0px;
+    }
+
+    .info {
+        margin: 15px;
+        border: 1px solid #018E89 ;
+        border-radius: 20px;
+        background-color: #018E89 ;
+        color: white;
+        }
+
+    #education {
+        height: inherit;
+        margin-left: 50px;
+    }
+
+    #interest {
+        margin-right: 15px;
+        margin-left: 50px;
+        background-color: #055C58;
+    }
+
+    #interest p {
+        padding: 40px;
+        font-size: 16px;
+    }
+
+    #achievements {
+        height: inherit;
+        background-color: #055C58;
+    }
+
+    #languages {
+        margin-top: 0px;
+        }
+
+    .graph{
+        display: inline-flex;
+        margin-top: 10px;
+
+
+    }
+
+    #blueCircle {
+        background: #055C58 ;
+        width: 25px;
+        height: 25px;
+        border: 3px solid #002624;
+        border-radius: 50%;
+        margin-right: 5px; 
+
+    }
+    #whiteCircle {
+        background: white;
+        width: 25px;
+        height: 25px;
+        border: 3px solid #002624;
+        border-radius: 50%;
+
+    }
+    
+    #five {
+        display: none;
+    }
+}
