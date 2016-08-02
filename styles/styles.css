@@ -1,6 +1,7 @@
 body{
-    margin: 0px;
-    background-color: #113B51;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #BCD9D9;
     font-family: 'Source Code Pro', serif;
     font-weight: 200;
     font-size: 20px;
@@ -9,7 +10,8 @@ body{
 .container {
     width: 100%;
     align-content: center;
-    }
+    height: 100vh;
+}
 
 h1 {
 	font-size: 55px;
@@ -95,6 +97,16 @@ li {
     margin-top: 220px;
 }
 
+#title h2 {
+    font-size: 35px;
+    background-color: #018E89;
+    margin-left: 270px;
+    margin-right: 270px;
+    border: 3px solid #002624;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
 #sinopsis {
     position: absolute;
     margin-top: 220px;
@@ -125,12 +137,11 @@ li {
 
 
 #two {
-    /*display: none;*/
+    background-color: #E2FBFB;
 }
 
 
 #workExperience{
-    background-color: white;
     height: inherit;
 }
 
@@ -140,7 +151,7 @@ li {
 
 .jobDataR {
     color: white;
-    border-radius: 2%;
+    border-radius: 20px;
     margin-left: 50px;
     margin-top: 50px;
 }
@@ -151,7 +162,7 @@ li {
 
 .jobDataL {
     color: white;
-    border-radius: 2%;
+    border-radius: 20px;
     margin-left: 50px;
     margin-top: 50px;
 }
@@ -177,6 +188,12 @@ li {
     
 }
 
+#job2 {
+    padding-top: 104px;
+    background-color: #C9F3F3;
+    
+}
+
 #jobImg2 {
     opacity: 1;
     margin-top: 20px;
@@ -189,8 +206,8 @@ li {
     
 }
 
-
-#secondPageDown {
+#job3 {
+    padding-top: 74px;
     
 }
 
@@ -198,11 +215,21 @@ li {
 
 
 #three {
+    background-color: #C9F3F3;
     color: #055C58;
 }
 
 #skills {
     
+}
+
+#skillsTitle {
+    font-size: 40px;
+    padding: 10px;
+    font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	color: #018E89;
 }
 
 #chartsMiddle {
@@ -221,20 +248,26 @@ li {
     background-color: #018E89;
     padding-bottom: 20px;
     color: white;
-    border-radius: 5%;
+    border-radius: 30px;
     margin-left: 30px;
     margin-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .skillBtn {
     margin-left: -2px;
-}
+    }
 
 /*--------------------------INFORMATION - Section Four------------------------------------*/
 
 #four {
     margin-left: -27px;
+    padding-top: 25px;
+    background-color: #E2FBFB;
+}
+
+#four li {
+    padding: 10px;
 }
 
 .edBtn {
@@ -244,7 +277,7 @@ li {
 .info {
     margin: 15px;
     border: 1px solid #018E89 ;
-    border-radius: 2%;
+    border-radius: 20px;
     background-color: #018E89 ;
     color: white;
     }
@@ -261,7 +294,7 @@ li {
 }
 
 #interest p {
-    padding: 50px;
+    padding: 40px;
     font-size: 16px;
 }
 
@@ -390,4 +423,12 @@ As hex codes
 #b {
     background-color: #43293d;
     border: 3px solid #f26fd4;
+}
+
+/*-----------------------------MEDIA QUERYS---------------------------------------*/
+
+@media only screen and (max-width: 1279px) {
+    .container {
+        height: auto;
+    }
 }
