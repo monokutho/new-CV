@@ -52,10 +52,15 @@ li {
 .pageDownBtn .fa{
     padding-top: 30px;
     padding-bottom: 15px;
-    opacity: 0;
+    opacity: 1;
+    color: #018E89;
 }
 
-/*Intro - Section One*/
+.pageDownBtn .fa:hover{
+    color: #055C58;
+}
+
+/*------------------INTRO - Section One----------------------------*/
 
 #one {
     background-image: url(/img/cv-intro.jpg);
@@ -97,9 +102,10 @@ li {
 }
 
 #intro_switch {
-    margin-top: 400px;
+    margin-top: 500px;
     position: absolute;
     color: white;
+    margin-left: -23px;
 }
 
 #firstPageDown {
@@ -107,6 +113,7 @@ li {
     position: absolute;
     color: white;
     opacity: 0;
+    margin-left: -21px
 }
 
 .switch .icon-on {
@@ -114,7 +121,8 @@ li {
 }
 
 
-/*Work Experience - Section Two*/
+/*----------------------PROJECTS - Section Two-------------------------------*/
+
 
 #two {
     /*display: none;*/
@@ -122,27 +130,63 @@ li {
 
 
 #workExperience{
-    background-color: #C6DAE4;
+    background-color: white;
     height: inherit;
-    color: #032436;
-
 }
 
-.jobData {
-    padding: 80px;
+.workBtn {
+    margin-left: 27px;
 }
 
-#jobTitle1 {
+.jobDataR {
+    color: white;
+    border-radius: 2%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.jobDataR li {
+    font-size: 22px;
+}
+
+.jobDataL {
+    color: white;
+    border-radius: 2%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.jobDataL li {
+    font-size: 22px;
+}
+
+#jobTitle {
+    padding-top: 20px;
+    color: #055C58;
     opacity: 1;
 }
 
 #jobImg1 {
-   text-align: center;
-    opacity: 1; 
-}
+    opacity: 1;
+    }
 
 #jobData1 {
+    margin-top: 130px;
     opacity: 1;
+    background-color: #018E89;
+    
+}
+
+#jobImg2 {
+    opacity: 1;
+    margin-top: 20px;
+}
+
+#jobData2 {
+    margin-top: 130px;
+    opacity: 1;
+    background-color: #055C58;
+    
 }
 
 
@@ -150,7 +194,9 @@ li {
     
 }
 
-/*Skills - Section Three*/
+/*--------------------------SKILLS - Section Three---------------------------------*/
+
+
 #three {
     color: #055C58;
 }
@@ -181,11 +227,19 @@ li {
     margin-bottom: 30px;
 }
 
-/*Information - Section Four */
+.skillBtn {
+    margin-left: -2px;
+}
 
-/*#four {
-    padding: 10px;
-}*/
+/*--------------------------INFORMATION - Section Four------------------------------------*/
+
+#four {
+    margin-left: -27px;
+}
+
+.edBtn {
+    margin-left: 29px;
+}
 
 .info {
     margin: 15px;
@@ -245,11 +299,6 @@ li {
     
 }
 
-/*Music Box - Section Five*/
-
-
-
-
 /*Pallete
 
  As hex codes
@@ -281,7 +330,8 @@ As hex codes
 
 
 
-/*--------------MUSIC BOX---------------*/
+/*-----------------------MUSIC BOX - Section Five----------------------------*/
+
 
 #instrument {
     margin-top: 0px;
