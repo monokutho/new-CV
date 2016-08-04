@@ -244,9 +244,7 @@ li {
     margin-left: -43px;
 }
 
-.bootPadEdu {
-    margin-left: -50px   
-}
+
 
 .charts {
     background-color: #018E89;
@@ -272,6 +270,10 @@ li {
 
 #four li {
     padding: 10px;
+}
+
+.bootPadEdu {
+    margin-left: -50px   
 }
 
 .edBtn {
@@ -432,7 +434,7 @@ As hex codes
 
 /*-----------------------------MEDIA QUERYS---------------------------------------*/
 
-@media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 435px) {
     .container {
         height: auto;
     }
