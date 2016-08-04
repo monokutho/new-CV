@@ -1,0 +1,98 @@
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+    
+    #contactInfo .contact {
+        font-size: 15px;
+        padding: 5px;
+    }
+    
+    #title{
+        margin-top: 160px;
+    }
+    
+    #title h1{
+        font-size: 25px;
+    }
+
+    #title h2 {
+        font-size: 14px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    #sinopsis {
+        margin-top: 160px;
+        font-size: 14px;
+    }
+    
+    #intro_switch {
+        margin-top: 500px;
+        margin-left: -12px;
+    }
+
+    #firstPageDown {
+        margin-top: 570px;
+        margin-left: -10px
+    }
+    
+    #jobData1 {
+        margin-top: 30px;
+    }
+    
+    #jobData2 {
+        margin-top: 30px;
+    }
+    
+    #jobImg2 {
+        margin-left: 43px
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 435px) {
+    
+    #contactInfo .contact {
+        font-size: 15px;
+        padding: 5px;
+    }
+    
+    #title{
+        margin-top: 200px;
+    }
+    
+    #title h1{
+        font-size: 27px;
+    }
+
+    #title h2 {
+        font-size: 15px;
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    #sinopsis {
+        margin-top: 200px;
+        font-size: 15px;
+    }
+    
+    #intro_switch {
+        margin-top: 570px;
+        margin-left: -12px;
+    }
+
+    #firstPageDown {
+        margin-top: 670px;
+        margin-left: -10px
+    }
+    
+    #jobData1 {
+        margin-top: 50px;
+    }
+    
+    #jobData2 {
+        margin-top: 50px;
+    }
+    
+    #jobImg2 {
+        margin-left: 53px
+    }
+    
+}

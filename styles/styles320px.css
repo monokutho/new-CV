@@ -1,17 +1,6 @@
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 435px) {
     
-    body{
-        margin: 0 !important;
-        padding: 0 !important;
-        width: 100%;
-    }
-    .container {
-        width: 100%;
-        align-content: center;
-        height: auto;
-    }
-    
-    h1 {
+   h1 {
         font-size: 22px;
         font-style: bold;
         font-variant: normal;
@@ -45,7 +34,7 @@
         }
 
     li {
-        font-size: 16px;
+        font-size: 12px;
         padding: 5px;
     }
     
@@ -58,85 +47,87 @@
 
     }
     
+    #contactInfo .contact {
+        font-size: 10px;
+    }
+    
     #title{
-        margin-top: 120px;
+        margin-top: 90px;
     }
 
+    
+    
     #title h2 {
-        font-size: 11px;
-        margin-left: 50px;
-        margin-right: 50px;
+        font-size: 13px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     #sinopsis {
-        margin-top: 140px;
+        margin-top: 90px;
         font-size: 14px;
     }
 
     #intro_switch {
-        margin-top: 450px;
-        margin-left: 0px;
+        margin-top: 420px;
+        margin-left: -12px;
     }
 
     #firstPageDown {
-        margin-top: 530px;
-        margin-left: 0px
+        margin-top: 470px;
+        margin-left: -10px
     }
     
     /*---------------------------PROJECTS----------------------------*/
     
     .workBtn {
-        margin-left: 0px;
+        margin-left: -3px;
     }
-
-    .jobDataR {
-        color: white;
-        border-radius: 10px;
-        }
+    
+    .jobDataR h3 {
+        padding-top: 5px;
+    }
+    .jobDataL h3 {
+        padding-top: 5px;
+    }
 
     .jobDataR li {
         font-size: 12px;
-    }
-
-    .jobDataL {
-        color: white;
-        border-radius: 10px;
+        padding-bottom: 15px;
     }
 
     .jobDataL li {
         font-size: 12px;
-    }
-
-    #jobTitle {
-        padding-top: 0px;
-        color: #055C58;
-        opacity: 1;
+        padding-bottom: 15px;
     }
 
     #jobImg1 {
-        opacity: 1;
-        }
+        margin-left: -5px;
+    }
 
     #jobData1 {
-        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -5px;
         opacity: 1;
         background-color: #018E89;
 
     }
 
     #job2 {
-        padding-top: 4px;
+        padding-top: 0px;
         background-color: #C9F3F3;
 
     }
 
     #jobImg2 {
-        opacity: 1;
-        margin-top: 0px;
+        margin-left: -5px
     }
 
     #jobData2 {
-        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -5px;
         opacity: 1;
         background-color: #055C58;
 
@@ -147,60 +138,18 @@
 
     }
     
-    #three {
-        background-color: #C9F3F3;
-        color: #055C58;
-    }
-
-    #skills {
-
-    }
-
-    #skillsTitle {
-        font-size: 40px;
-        padding: 10px;
-        font-style: bold;
-        font-variant: normal;
-        font-weight: 500;
-        color: #018E89;
-    }
-
-    #chartsMiddle {
-        background-color: #055C58;
-    }
-
-    .bootPadSkills {
-        margin-left: 0px;
-    }
-
-    .bootPadEdu {
-        margin-left: 0px   
-    }
-
-    .charts {
-        background-color: #018E89;
-        padding-bottom: 20px;
-        color: white;
-        border-radius: 30px;
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-bottom: 20px;
-    }
-
-    .skillBtn {
-        margin-left: 0px;
-        }
-
+    /*----------------------------SKILLS-----------------------------------*/
+    
     /*--------------------------INFORMATION - Section Four------------------------------------*/
 
     #four {
         margin-left: 0px;
-        padding-top: 25px;
+        padding-top: 5px;
         background-color: #E2FBFB;
     }
 
     #four li {
-        padding: 10px;
+        padding: 5px;
     }
 
     .edBtn {
@@ -209,7 +158,6 @@
 
     .info {
         margin: 15px;
-        border: 1px solid #018E89 ;
         border-radius: 20px;
         background-color: #018E89 ;
         color: white;
@@ -217,18 +165,19 @@
 
     #education {
         height: inherit;
-        margin-left: 50px;
+        margin-left: 15px;
     }
 
     #interest {
-        margin-right: 15px;
-        margin-left: 50px;
-        background-color: #055C58;
+        margin-top: 0px;
+        margin-left: 15px;
+        background-color: #018E89;
+        
     }
 
     #interest p {
-        padding: 40px;
-        font-size: 16px;
+        padding: 25px;
+        font-size: 12px;
     }
 
     #achievements {
@@ -238,6 +187,7 @@
 
     #languages {
         margin-top: 0px;
+        background-color: #055C58;
         }
 
     .graph{
@@ -248,7 +198,7 @@
     }
 
     #blueCircle {
-        background: #055C58 ;
+        background: #018E89 ;
         width: 25px;
         height: 25px;
         border: 3px solid #002624;
@@ -267,5 +217,90 @@
     
     #five {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+
+    #title{
+        margin-top: 110px;
+    }
+
+    #title h2 {
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #sinopsis {
+        margin-top: 110px;
+        font-size: 14px;
+    }
+    
+    #intro_switch {
+        margin-top: 450px;
+        margin-left: -12px;
+    }
+
+    #firstPageDown {
+        margin-top: 530px;
+        margin-left: -10px
+    }
+    
+    #jobData1 {
+        margin-top: 20px;
+    }
+    
+    #jobData2 {
+        margin-top: 20px;
+    }
+    
+    #jobImg2 {
+        margin-left: 15px
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+    
+    #title{
+        margin-top: 120px;
+    }
+
+    #title h2 {
+        font-size: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #sinopsis {
+        margin-top: 120px;
+        font-size: 14px;
+    }
+    
+    
+    #intro_switch {
+        margin-top: 490px;
+        margin-left: -12px;
+    }
+
+    #firstPageDown {
+        margin-top: 560px;
+        margin-left: -10px
+    }
+    
+    #jobImg1 {
+        margin-left: 0px;
+    }
+    
+    #jobImg2 {
+        margin-left: 25px
+    }
+    
+    #jobData1 {
+        margin-top: 30px;
+    }
+    
+    #jobData2 {
+        margin-top: 20px;
     }
 }
