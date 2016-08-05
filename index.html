@@ -13,8 +13,8 @@
     <link href="styles/font-awesome.min.css" rel="stylesheet" >
     <link href="styles/chartist.min.css" rel="stylesheet" >
     <link href="styles/styles.css" rel="stylesheet" type="text/css" />
-    <link href="styles/styles320px.css" rel="stylesheet" type="text/css" />
-    <link href="styles/styles435px.css" rel="stylesheet" type="text/css" />
+    <link href="styles/styles_port_320_435px.css" rel="stylesheet" type="text/css" />
+    <link href="styles/styles_land_568_736px.css" rel="stylesheet" type="text/css" />
     <link href="styles/styles768px.css" rel="stylesheet" type="text/css" />
     <link href="styles/donut.css" rel="stylesheet" />
     
@@ -26,11 +26,11 @@
             <div class="row" id="contactInfo">
                 <div class="col-sx-12 col-sm-4 col-md-4 contact"><i class="fa fa-envelope-o" aria-hidden="true"></i><small> santiago.gonzalez.erazo@gmail.com</small></div>
                 <div class="col-sx-12 col-sm-3 col-md-3 contact"><i class="fa fa-mobile" aria-hidden="true"></i> +34 674545986</div>
-                <div class="col-sx-12 col-sm-2 col-md-2 contact"><i class="fa fa-github" aria-hidden="true"></i> monokutho</div>
-                <div class="col-sx-12 col-sm-3 col-md-3 contact"><i class="fa fa-globe" aria-hidden="true"></i> Lleida,Spain</div>
+                <div id="github" class="col-sx-12 col-sm-2 col-md-2 contact"><i class="fa fa-github" aria-hidden="true"></i> monokutho</div>
+                <div id="location" class="col-sx-12 col-sm-3 col-md-3 contact"><i class="fa fa-globe" aria-hidden="true"></i> Lleida,Spain</div>
             </div>
             <div class="row">
-                <div class="col-md-12 text-center">
+                <div class="col-sx-12 col-sm-12 col-md-12 col-l-12 text-center">
                     <div id="title" class="col-sm-12 col-md-12 col-l-12">
                         <h1>SANTIAGO GONZÁLEZ ERAZO</h1>
                         <br>
@@ -70,10 +70,10 @@
                 </div>
                 <div class="row">
                     
-                    <div id="jobImg1" class="col-sx-12 col-sm-12 col-md-4 text-center jobDataR">
+                    <div id="jobImg1" class="col-sx-12 col-sm-12 col-sm-4v col-md-4 text-center jobDataR">
                         <img src="img/click1.png">
                     </div>
-                    <div id="jobData1" class="col-sx-12 col-sm-11 col-md-7 jobDataR">
+                    <div id="jobData1" class="col-sx-12 col-sm-11 col-sm-7v col-md-7 jobDataR">
                         <h3>Mar 8-Bit Porfolio</h3>
                         <ul>
                             <li>The main idea of this website is to show my skills designing a web app with AngularJS, Bootstrap, Node and Gulp.</li>
@@ -82,8 +82,8 @@
                     </div>
                     <div class="col-sx-12 col-sm-1 col-md-1 jobPad"></div>
                 </div>
-                <div class="row text-center">
-                    <div class="col-sx-12 col-sm-12 col-md-12">
+                <div class="row">
+                    <div class="col-sx-12 col-sm-12 col-md-12 text-center">
                         <a href="#job2" class="pageDownBtn workBtn">
                             <i id="secondPageDown" class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
                         </a>   
@@ -93,14 +93,14 @@
             
             <div class="row container" id="job2">
                 <div class="row">
-                    <div id="jobData2" class="col-sx-12 col-sm-11 col-md-7 jobDataL">
+                    <div id="jobData2" class="col-sx-12 col-sm-11 col-sm-7v col-md-7 jobDataL">
                         <h3>Titan Company</h3>
                         <ul>
                             <li>￼This website shows my skills in jQuery, Bootstrap and the use of open-source ￼libs and its customization to achieve a specific funct</li>
                             <li>It is a website for a fictional hiking app.</li>
                         </ul>
                     </div>
-                    <div id="jobImg2" class="col-sx-12 col-sm-11 col-md-4 jobDataL">
+                    <div id="jobImg2" class="col-sx-12 col-sm-11 col-sm-4v col-md-4 jobDataL">
                         <img src="img/click1.png">
                     </div>
                     <div class="col-sx-12 col-sm-1 col-md-1 jobPad"></div>
@@ -116,10 +116,10 @@
             
             <div class="row container" id="job3">
                 <div class="row">
-                    <div id="jobImg1" class="col-sx-12 col-sm-11 col-md-4 text-center jobDataR">
+                    <div id="jobImg1" class="col-sx-12 col-sm-11 col-sm-4v col-md-4 text-center jobDataR">
                         <img src="img/click1.png">
                     </div>
-                    <div id="jobData1" class="col-sx-12 col-sm-11 col-md-7 jobDataR">
+                    <div id="jobData1" class="col-sx-12 col-sm-11 col-sm-7v col-md-7 jobDataR">
                         <h3>Mar 8-Bit Porfolio</h3>
                         <ul>
                             <li>The main idea of this website is to show my skills designing a web app with AngularJS, Bootstrap, Node and Gulp.</li>
@@ -146,7 +146,7 @@
             <div id="skillsTitle" class="col-sx-12 col-sm-12 col-md-12">SKILLS</div>
         </div>
         <div class="col-sm-1 col-md-1 bootPadSkills"></div>
-        <div class="col-sx-12 col-sm-3 col-md-3 charts">
+        <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts">
             <div class="row subtitles text-center">
                 <h4>Langs &#38 Libs</h4>
             </div>
@@ -164,7 +164,7 @@
             </div>
         </div>
         
-        <div class="col-sx-12 col-sm-3 col-md-3 charts" id="chartsMiddle">
+        <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts" id="chartsMiddle">
             <div class="row subtitles text-center">
                 <h4>Frameworks</h4>
             </div>
@@ -181,7 +181,7 @@
                 <div id="chart-e11"></div>
             </div>
         </div>
-        <div class="col-sx-12 col-sm-3 col-md-3 charts">
+        <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts">
             <div class="row subtitles text-center">
                 <h4>Utilities</h4>
             </div>
