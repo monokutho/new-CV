@@ -1,4 +1,120 @@
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    
+    #one {
+        background-position:30% 50%;
+    }
+    
+    #title h2 {
+        font-size: 25px;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+    
+    #intro_switch {
+        margin-top: 550px;
+        margin-left: 12px;
+    }
+
+    #firstPageDown {
+        margin-top: 670px;
+        margin-left: 15px
+    }
+    
+    /*--------------------------------------Projects-----------------------------------------*/
+    
+    #workExperience .container {
+        height: 100vh;
+    }
+    
+    .jobDataR {
+        color: white;
+        border-radius: 20px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .jobDataR li {
+        font-size: 22px;
+    }
+
+    .jobDataL {
+        color: white;
+        border-radius: 20px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .jobDataL li {
+        font-size: 22px;
+    }
+
+    #jobTitle {
+        padding-top: 50px;
+        color: #055C58;
+        opacity: 1;
+    }
+
+    #jobImg1 {
+        margin-left: -20px;
+        opacity: 1;
+        }
+
+    #jobData1 {
+        margin-left: 60px;
+        margin-top: 140px;
+        opacity: 1;
+        background-color: #018E89;
+    }
+    
+    #secondPageDown {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    
+    #job2 {
+        padding-top: 40px;
+        background-color: #C9F3F3;
+
+    }
+
+    #jobImg2 {
+        margin-top: 100px;
+        margin-left: 0px
+    }
+
+    #jobData2 {
+        margin-left: 20px;
+        margin-top: 180px;
+        opacity: 1;
+        background-color: #055C58;
+
+    }
+    
+    #thirdPageDown {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    
+    #forthPageDown {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    
+    #fifthPageDown {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    
+    #five {
+        display: none;
+    }
+    
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    
     .container {
         height: auto;
     }

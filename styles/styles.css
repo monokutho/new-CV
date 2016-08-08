@@ -2,7 +2,9 @@ body{
     margin: 0 !important;
     padding: 0 !important;
     background-color: #BCD9D9;
-    font-family: 'Source Code Pro', serif;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;/* se ve MUY BIEN, sobretodo en mayusculas y tamaño grande*/
+    /*font-family: 'Source Code Pro', serif;*/
     font-weight: 200;
     font-size: 20px;
     width:100%;
@@ -49,7 +51,7 @@ img {
 
 li {
     font-size: 16px;
-    padding: 15px;
+    padding: 20px;
 }
 
 .pageDownBtn .fa{
@@ -62,10 +64,6 @@ li {
 .pageDownBtn .fa:hover{
     color: #055C58;
 }
-
-.pad {
-        width: 0px;
-    }
 
 /*------------------INTRO - Section One----------------------------*/
 
@@ -86,6 +84,7 @@ li {
 }
 
 .contact {
+    font-family: 'Open Sans', sans-serif;
     padding: 7px;
     font-size: 15px;
     text-align: center;
@@ -113,6 +112,7 @@ li {
 }
 
 #sinopsis {
+    font-family: 'Open Sans', sans-serif;
     position: absolute;
     margin-top: 220px;
     display: none;
@@ -154,6 +154,14 @@ li {
     margin-left: 0px;
 }
 
+.jobTitleR{
+    border-radius: 20px;
+    background-color: #002624;
+    border: 3px solid #BCD9D9;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
 .jobDataR {
     color: white;
     border-radius: 20px;
@@ -193,7 +201,7 @@ li {
 }
 
 #job2 {
-    padding-top: 104px;
+    padding-top: 84px;
     background-color: #C9F3F3;
     
 }
@@ -215,16 +223,22 @@ li {
     
 }
 
+#jobImg3 {
+    opacity: 1;
+    }
+
+#jobData3 {
+    margin-top: 130px;
+    opacity: 1;
+    background-color: #018E89;
+}
+
 /*--------------------------SKILLS - Section Three---------------------------------*/
 
 
 #three {
     background-color: #C9F3F3;
     color: #055C58;
-}
-
-#skills {
-    
 }
 
 #skillsTitle {

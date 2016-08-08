@@ -102,7 +102,7 @@
     }
 
     #jobImg1 {
-        margin-left: -5px;
+        margin-left: 0px;
     }
 
     #jobData1 {
@@ -121,7 +121,7 @@
     }
 
     #jobImg2 {
-        margin-left: -5px
+        margin-left: 10px
     }
 
     #jobData2 {
@@ -215,19 +215,24 @@
 
     }
     
+    #sixthPageDown {
+        display: none;
+    }
+    
     #five {
         display: none;
     }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 360px) and (orientation: portrait) {
+/*iPhone 5*/
+@media only screen and (max-width: 360px) and (orientation: portrait) {
 
     #title{
         margin-top: 110px;
     }
 
     #title h2 {
-        font-size: 15px;
+        font-size: 12px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -238,13 +243,13 @@
     }
     
     #intro_switch {
-        margin-top: 450px;
+        margin-top: 430px;
         margin-left: -12px;
     }
 
     #firstPageDown {
-        margin-top: 530px;
-        margin-left: -10px
+        margin-top: 480px;
+        margin-left: -10px;
     }
     
     #jobData1 {
@@ -256,12 +261,16 @@
     }
     
     #jobImg2 {
-        margin-left: 15px
+        margin-left: 10px
     }
 }
 
-@media only screen and (min-width: 361px) and (max-width: 375px) and (orientation: portrait) {
+/*iPhone 6*/
+@media only screen and (min-width: 362px) and (max-width: 375px) and (orientation: portrait) {
     
+    #one {
+        display: none;
+    }
     #title{
         margin-top: 120px;
     }
@@ -305,7 +314,7 @@
     }
 }
 
-@media only screen and (min-width: 376px) and (max-width: 414px) and (orientation: portrait) {
+@media only screen and (min-width: 376px) and (max-width: 415px) and (orientation: portrait) {
     
     #contactInfo .contact {
         font-size: 15px;
@@ -354,7 +363,7 @@
     }
 }
 
-@media only screen and (min-width: 415px) and (max-width: 435px) and (orientation: portrait) {
+@media only screen and (min-width: 417px) and (max-width: 435px) and (orientation: portrait) {
     
     #contactInfo .contact {
         font-size: 15px;

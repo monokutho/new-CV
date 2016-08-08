@@ -110,12 +110,12 @@
 
     #intro_switch {
         margin-top: 190px;
-        margin-left: -12px;
+        margin-left: -20px;
     }
 
     #firstPageDown {
         margin-top: 230px;
-        margin-left: -8px
+        margin-left: -18px
     }
     /*---------------------------PROJECTS----------------------------*/
     
@@ -201,14 +201,18 @@
         color: #018E89;
     }
 
-        .charts {
+    .charts {
         background-color: #018E89;
         padding-bottom: 20px;
         color: white;
         border-radius: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 20px;
+    }
+    
+    .bootPadSkills {
+        margin-left: -105px;
     }
     
     /*--------------------------INFORMATION - Section Four------------------------------------*/
@@ -260,10 +264,157 @@
         margin-left: 50px;
         margin-top: 0px;
     }
+    
+    #sixthPageDown {
+        display: none;
+    }
 
     #five {
         display: none;
     }
 
     
+}
+
+@media only screen and (min-width: 640px) and (max-width: 667px) and (orientation: landscape) {
+
+    #title{
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 50px;
+    }
+
+    #title h2 {
+        font-size: 13px;
+        }
+
+    #sinopsis {
+        margin-top: 60px;
+        font-size: 14px;
+    }
+
+    #intro_switch {
+        margin-top: 230px;
+        margin-left: -22px;
+    }
+
+    #firstPageDown {
+        margin-top: 280px;
+        margin-left: -20px
+    }
+    
+    #jobData1 {
+        margin-top: 30px;
+    }
+    
+    #jobImg1 {
+        margin-top: 30px;
+    }
+    
+    #secondPageDown {
+        margin-top: 10px;   
+    }
+    
+    #jobData2 {
+        margin-top: 50px;
+    }
+    
+    #jobImg2 {
+        margin-top: 50px;
+    }
+    
+    #thirdPageDown {
+        margin-top: 20px;   
+    }
+    
+    #jobData3 {
+        margin-top: 50px;
+    }
+    
+    #jobImg3 {
+        margin-top: 50px;
+    }
+    
+    #forthPageDown{
+         margin-top: 40px;       
+    }
+    
+    .bootPadSkills {
+        margin-left: -115px;
+    }
+    
+}
+
+@media only screen and (min-width: 668px) and (max-width: 736px) and (orientation: landscape) {
+    #title{
+        margin-left: 180px;
+        margin-right: 180px;
+        margin-top: 60px;
+    }
+
+    #title h2 {
+        font-size: 13px;
+        }
+
+    #sinopsis {
+        margin-top: 90px;
+        font-size: 14px;
+    }
+
+    #intro_switch {
+        margin-top: 250px;
+        margin-left: -20px;
+    }
+
+    #firstPageDown {
+        margin-top: 300px;
+        margin-left: -18px;
+    }
+    
+    #jobData1 {
+        margin-top: 50px;
+    }
+    
+    #jobImg1 {
+        margin-top: 50px;
+    }
+    
+    #secondPageDown {
+        margin-top: 10px;   
+    }
+    
+    #jobData2 {
+        margin-top: 70px;
+    }
+    
+    #jobImg2 {
+        margin-top: 70px;
+    }
+    
+    #thirdPageDown {
+        margin-top: 25px;   
+    }
+    
+    
+    #jobData3 {
+        margin-top: 70px;
+    }
+    
+    #jobImg3 {
+        margin-top: 70px;
+    }
+    
+    #forthPageDown{
+         margin-top: 45px;       
+    }
+    
+    .bootPadSkills {
+        margin-left: -150px;
+    }
+
+    .charts {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+   
 }

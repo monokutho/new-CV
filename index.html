@@ -8,14 +8,20 @@
     <title>Santiago González - Front End Web Developer</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="node_modules/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+    
+    <!--FONTS no olvidar borrar las que no use-->
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600,300italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300,100' rel='stylesheet' type='text/css'>
+    
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
     <link href="styles/font-awesome.min.css" rel="stylesheet" >
     <link href="styles/chartist.min.css" rel="stylesheet" >
     <link href="styles/styles.css" rel="stylesheet" type="text/css" />
     <link href="styles/styles_port_320_435px.css" rel="stylesheet" type="text/css" />
     <link href="styles/styles_land_568_736px.css" rel="stylesheet" type="text/css" />
-    <link href="styles/styles768px.css" rel="stylesheet" type="text/css" />
+    <link href="styles/styles_ipad.css" rel="stylesheet" type="text/css" />
     <link href="styles/donut.css" rel="stylesheet" />
     
 </head>
@@ -34,7 +40,7 @@
                     <div id="title" class="col-sm-12 col-md-12 col-l-12">
                         <h1>SANTIAGO GONZÁLEZ ERAZO</h1>
                         <br>
-                        <h2>- Front End Web Developer -</h2>
+                        <h2>- FRONT END WEB DEVELOPER -</h2>
                         <br>
                     </div>
                     <p id="sinopsis" class="col-sx-12 col-sm-12 col-md-12 col-l-12">I have been in the video game industry for the last nine years as an audio designer and music producer. Working alongside programmers and see their code working, gave me an insider perspective, that with time, it evolves into my passion for coding and computer science. With strong determination and self-discipline, I have earned sufficient knowledge of the web development procedure and the tools to succeed at it, through a great deal of practice and online studies and certificates.</p>
@@ -70,20 +76,20 @@
                 </div>
                 <div class="row">
                     
-                    <div id="jobImg1" class="col-sx-12 col-sm-12 col-sm-4v col-md-4 text-center jobDataR">
+                    <div id="jobImg1" class="col-sx-12 col-sm-12 col-sm-4v col-md-4 col-lg-4 text-center jobDataR">
                         <img src="img/click1.png">
                     </div>
-                    <div id="jobData1" class="col-sx-12 col-sm-11 col-sm-7v col-md-7 jobDataR">
-                        <h3>Mar 8-Bit Porfolio</h3>
+                    <div id="jobData1" class="col-sx-12 col-sm-11 col-sm-7v col-md-7 col-lg-7 jobDataR">
+                        <h3 class="jobTitleR">MAR 8-BIT PORTFOLIO</h3>
                         <ul>
                             <li>The main idea of this website is to show my skills designing a web app with AngularJS, Bootstrap, Node and Gulp.</li>
                             <li>It is a website for a fictional technology start-up.</li>
                         </ul>
                     </div>
-                    <div class="col-sx-12 col-sm-1 col-md-1 jobPad"></div>
+                    <div class="col-sx-12 col-sm-1 col-md-1 col-lg-1 jobPad"></div>
                 </div>
                 <div class="row">
-                    <div class="col-sx-12 col-sm-12 col-md-12 text-center">
+                    <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12 text-center">
                         <a href="#job2" class="pageDownBtn workBtn">
                             <i id="secondPageDown" class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
                         </a>   
@@ -94,7 +100,7 @@
             <div class="row container" id="job2">
                 <div class="row">
                     <div id="jobData2" class="col-sx-12 col-sm-11 col-sm-7v col-md-7 jobDataL">
-                        <h3>Titan Company</h3>
+                        <h3 class="jobTitleL">TITAN COMPANY</h3>
                         <ul>
                             <li>￼This website shows my skills in jQuery, Bootstrap and the use of open-source ￼libs and its customization to achieve a specific funct</li>
                             <li>It is a website for a fictional hiking app.</li>
@@ -116,11 +122,11 @@
             
             <div class="row container" id="job3">
                 <div class="row">
-                    <div id="jobImg1" class="col-sx-12 col-sm-11 col-sm-4v col-md-4 text-center jobDataR">
+                    <div id="jobImg3" class="col-sx-12 col-sm-11 col-sm-4v col-md-4 text-center jobDataR">
                         <img src="img/click1.png">
                     </div>
-                    <div id="jobData1" class="col-sx-12 col-sm-11 col-sm-7v col-md-7 jobDataR">
-                        <h3>Mar 8-Bit Porfolio</h3>
+                    <div id="jobData3" class="col-sx-12 col-sm-11 col-sm-7v col-md-7 jobDataR">
+                        <h3 class="jobTitleR">CLICK &#38; HIKE</h3>
                         <ul>
                             <li>The main idea of this website is to show my skills designing a web app with AngularJS, Bootstrap, Node and Gulp.</li>
                             <li>It is a website for a fictional technology start-up.</li>
@@ -145,59 +151,62 @@
         <div class="row sectionTitle text-center">
             <div id="skillsTitle" class="col-sx-12 col-sm-12 col-md-12">SKILLS</div>
         </div>
-        <div class="col-sm-1 col-md-1 bootPadSkills"></div>
-        <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts">
-            <div class="row subtitles text-center">
-                <h4>Langs &#38 Libs</h4>
+        <div class="row">
+            <div class="col-sm-1 col-sm-3v col-md-1 bootPadSkills"></div>
+            <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts">
+                <div class="row subtitles text-center">
+                    <h4>Langs &#38 Libs</h4>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e1" ></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e4"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e7"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e10"></div>
+                </div>
             </div>
-            <div class="row row-chart">
-                <div id="chart-e1" ></div>
+
+            <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts" id="chartsMiddle">
+                <div class="row subtitles text-center">
+                    <h4>Frameworks</h4>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e2"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e5"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e8"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e11"></div>
+                </div>
             </div>
-            <div class="row row-chart">
-                <div id="chart-e4"></div>
-            </div>
-            <div class="row row-chart">
-                <div id="chart-e7"></div>
-            </div>
-            <div class="row row-chart">
-                <div id="chart-e10"></div>
+            <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts">
+                <div class="row subtitles text-center">
+                    <h4>Utilities</h4>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e3"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e6"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e9"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e12"></div>
+                </div>
             </div>
         </div>
         
-        <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts" id="chartsMiddle">
-            <div class="row subtitles text-center">
-                <h4>Frameworks</h4>
-            </div>
-            <div class="row row-chart">
-                <div id="chart-e2"></div>
-            </div>
-            <div class="row row-chart">
-                <div id="chart-e5"></div>
-            </div>
-            <div class="row row-chart">
-                <div id="chart-e8"></div>
-            </div>
-            <div class="row row-chart">
-                <div id="chart-e11"></div>
-            </div>
-        </div>
-        <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts">
-            <div class="row subtitles text-center">
-                <h4>Utilities</h4>
-            </div>
-            <div class="row row-chart">
-                <div id="chart-e3"></div>
-            </div>
-            <div class="row row-chart">
-                <div id="chart-e6"></div>
-            </div>
-            <div class="row row-chart">
-                <div id="chart-e9"></div>
-            </div>
-            <div class="row row-chart">
-                <div id="chart-e12"></div>
-            </div>
-        </div>
 
         <div class="row">
             <div class="col-sx-12 col-sm-12 col-md-12 text-center">
