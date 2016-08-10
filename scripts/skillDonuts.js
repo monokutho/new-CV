@@ -90,7 +90,7 @@ var chart3 = new Chartist.Pie('#chart-e3', {
                 offsetY: 0,
                 offsetX: -2
                             }, {
-                content: '<h3>GIT</h3>'
+                content: '<h4>GIT</h4>'
                             }]
         })
                     ],
@@ -122,7 +122,7 @@ var chart4 = new Chartist.Pie('#chart-e4', {
                 offsetY: 10,
                 offsetX: -2
                             }, {
-                content: '<h3>HTML</h3>'
+                content: '<h4>HTML</h4>'
                             }]
         })
                     ],
@@ -154,7 +154,7 @@ var chart5 = new Chartist.Pie('#chart-e5', {
                 offsetY: 10,
                 offsetX: -2
                             }, {
-                content: '<h4>Node.js</h4>'
+                content: '<h5>Node.js</h5>'
                             }]
         })
                     ],
@@ -186,7 +186,7 @@ var chart6 = new Chartist.Pie('#chart-e6', {
                 offsetY: 10,
                 offsetX: -2
                             }, {
-                content: '<h7>Grunt&Gulp</h7>'
+                content: '<h6>Grunt&Gulp</h6>'
                             }]
         })
                     ],
@@ -218,7 +218,7 @@ var chart7 = new Chartist.Pie('#chart-e7', {
                 offsetY: 10,
                 offsetX: -2
                             }, {
-                content: '<h3>CSS</h3>'
+                content: '<h4>CSS</h4>'
                             }]
         })
                     ],
@@ -250,7 +250,7 @@ var chart8 = new Chartist.Pie('#chart-e8', {
                 offsetY: 10,
                 offsetX: -2
                             }, {
-                content: '<h6>Boostrap</h6>'
+                content: '<h6>Bootstrap</h6>'
                             }]
         })
                     ],
@@ -282,7 +282,7 @@ var chart9 = new Chartist.Pie('#chart-e9', {
                 offsetY: 10,
                 offsetX: -2
                             }, {
-                content: '<h7>Yo&Yoeman</h7>'
+                content: '<h6>Yo&Yoeman</h6>'
                             }]
         })
                     ],
@@ -314,7 +314,7 @@ var chart10 = new Chartist.Pie('#chart-e10', {
                 offsetY: 10,
                 offsetX: -2
                             }, {
-                content: '<h4>jQuery</h4>'
+                content: '<h5>jQuery</h5>'
                             }]
         })
                     ],
@@ -378,7 +378,7 @@ var chart12 = new Chartist.Pie('#chart-e12', {
                 offsetY: 10,
                 offsetX: -2
                             }, {
-                content: '<h7>TortoiseSVN</h7>'
+                content: '<h6>TortoiseSVN</h6>'
                             }]
         })
                     ],

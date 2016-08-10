@@ -54,16 +54,7 @@ li {
     padding: 20px;
 }
 
-.pageDownBtn .fa{
-    padding-top: 30px;
-    padding-bottom: 15px;
-    opacity: 1;
-    color: #018E89;
-}
 
-.pageDownBtn .fa:hover{
-    color: #055C58;
-}
 
 /*------------------INTRO - Section One----------------------------*/
 
@@ -135,7 +126,7 @@ li {
 
 .switch .icon-on {
     display: none;
-}
+} 
 
 
 /*----------------------PROJECTS - Section Two-------------------------------*/
@@ -383,7 +374,7 @@ As hex codes
 
 
 
-/*-----------------------MUSIC BOX - Section Five----------------------------*/
+/*-----------------------MUSIC BOX - Section Five----------------------------
 
 
 #instrument {
@@ -402,7 +393,7 @@ As hex codes
     float:left;
 }
 
-/*INDIVIDUAL BOXES/KEYS*/
+INDIVIDUAL BOXES/KEYS
 
 #c {
     background-color: #3e181b;
@@ -444,14 +435,10 @@ As hex codes
     background-color: #43293d;
     border: 3px solid #f26fd4;
 }
-
+*/
 
 /*-----------------------------MEDIA QUERYS---------------------------------------*/
 
-@media only screen and (max-width: 435px) {
-    .container {
-        height: auto;
-    }
-}
+
 
 
