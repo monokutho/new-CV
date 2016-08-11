@@ -58,6 +58,10 @@ h4 {
     color: #055C58;
 }
 
+#job1, #job2, #job3, #three, #four {
+    opacity: 1;
+}
+
 
 /*------------------INTRO - Section One----------------------------*/
 
@@ -117,7 +121,7 @@ h4 {
     margin-left: -2vw;
 }
 
-#firstPageDown {
+#bioPageDown {
     margin-top: 85vh;
     position: absolute;
     color: white;
@@ -153,7 +157,7 @@ h4 {
     margin-left: 14vw;
     margin-right: 14vw;
     margin-bottom: 3vh;
-    opacity: 1;
+    opacity: 0;
 }
 
 .jobR {
@@ -181,60 +185,72 @@ h4 {
 
 /*---------JOB 1------------*/
 
+#jobTitle1{
+    opacity: 0;
+}
+
 #jobImg1 {
-    opacity: 1;
+    opacity: 0;
 }
 
 #jobData1 {
     margin-top: 6vh;
     margin-left: 3vw;
-    opacity: 1;
+    opacity: 0;
     background-color: #018E89;
 }
 
-#secondPageDown {
+#job1PageDown {
     margin-top: 9vh;
 }
 
 
 /*---------JOB 2------------*/
 
+#jobTitle2{
+    opacity: 0;
+}
+
 #job2 {
     background-color: #C9F3F3;
 }
 
 #jobImg2 {
-    opacity: 1;
+    opacity: 0;
     margin-left: 5vw;
 }
 
 #jobData2 {
     margin-top: 5vh;
     margin-left: 3vw;
-    opacity: 1;
+    opacity: 0;
     background-color: #055C58;
 }
 
-#thirdPageDown {
+#job2PageDown {
     margin-top: 12.5vh;
 }
 
 
 /*---------JOB 3------------*/
 
+#jobTitle3{
+    opacity: 0;
+}
+
 #jobImg3 {
     margin-top: 10vh;
-    opacity: 1;
+    opacity: 0;
 }
 
 #jobData3 {
     margin-top: 15vh;
     margin-left: 3vw;
-    opacity: 1;
+    opacity: 0;
     background-color: #018E89;
 }
 
-#forthPageDown {
+#job3PageDown {
     margin-top: 12.5vh;
 }
 
@@ -252,8 +268,17 @@ h4 {
     color: #018E89;
 }
 
+#chartsLeft {
+    opacity: 0;
+}
+
 #chartsMiddle {
     background-color: #055C58;
+    opacity: 0;
+}
+
+#chartsRight {
+    opacity: 0;
 }
 
 .bootPadSkills {
@@ -345,11 +370,13 @@ h4 {
 
 #education {
     margin-left: 0vw;
+    opacity: 0;
 }
 
 #interest {
     margin-top: -1vw;
     background-color: #055C58;
+    opacity: 0;
 }
 
 #interest p {
@@ -359,11 +386,13 @@ h4 {
 
 #achievements {
     background-color: #055C58;
+    opacity: 0;
 }
 
 #languages {
     margin-top: 2vh;
     margin-left: 1vw;
+    opacity: 0;
 }
 
 .graph {
@@ -388,7 +417,7 @@ h4 {
     border-radius: 50%;
 }
 
-#sixthPageDown {
+#infoPageUp {
     margin-top: -1vh;
 }
 
@@ -449,7 +478,7 @@ As hex codes
     #intro_switch {
         margin-left: -5.5vw;
     }
-    #firstPageDown {
+    #PageDown {
         margin-top: 82vh;
         margin-left: -3vh;
     }
@@ -485,7 +514,7 @@ As hex codes
         margin-top: 5vh;
         margin-left: 3vw;
     }
-    #secondPageDown {
+    #job1PageDown {
         margin-top: 0vh;
     }
     /*---------JOB 2------------*/
@@ -497,7 +526,7 @@ As hex codes
         margin-top: 3vh;
         margin-left: 3vw;
     }
-    #thirdPageDown {
+    #job2PageDown {
         margin-top: 0vh;
     }
     /*---------JOB 3------------*/
@@ -508,7 +537,7 @@ As hex codes
         margin-top: 5vh;
         margin-left: 3vw;
     }
-    #forthPageDown {
+    #job3PageDown {
         margin-top: 0vh;
     }
     /*----------------------SKILLS-------------------*/
@@ -590,7 +619,7 @@ As hex codes
         font-size: 0.9em;
         margin-top: 10vh;
     }
-    #firstPageDown {
+    #bioPageDown {
         margin-top: 84vh;
     }
 }
@@ -616,7 +645,7 @@ As hex codes
         margin-top: 70vh;
         margin-left: -5vw;
     }
-    #firstPageDown {
+    #bioPageDown {
         margin-top: 84vh;
         margin-left: -3vh;
     }
@@ -694,7 +723,7 @@ As hex codes
     #intro_switch {
         margin-left: -1vw;
     }
-    #firstPageDown {
+    #bioPageDown {
         margin-top: 91vh;
         margin-left: -1vh;
     }
@@ -735,7 +764,7 @@ As hex codes
         margin-top: 5vh;
         margin-left: 3vw;
     }
-    #secondPageDown {
+    #job1PageDown {
         margin-top: 0vh;
         margin-left: 2vh;
     }
@@ -748,7 +777,7 @@ As hex codes
         margin-top: 7vh;
         margin-left: 3vw;
     }
-    #thirdPageDown {
+    #job2PageDown {
         margin-top: 3.5vh;
         margin-left: 2vh;
     }
@@ -761,12 +790,12 @@ As hex codes
         margin-top: 7vh;
         margin-left: 3vw;
     }
-    #forthPageDown {
+    #job3PageDown {
         margin-top: 3.5vh;
         margin-left: 2vh;
     }
     
-    #fifthPageDown {
+    #skillsPageDown {
         margin-left: 2vh;
     }
     /*----------------------INFO-------------------*/
@@ -789,7 +818,7 @@ As hex codes
     .graph {
         margin-top: 1vh;
     }
-    #sixthPageDown {
+    #infoPageUp {
         margin-left: 2vh;
     }
 }
@@ -861,7 +890,7 @@ As hex codes
         margin-top: 53vh;
         margin-left: -3.5vw;
     }
-    #firstPageDown {
+    #bioPageDown {
         margin-top: 66vh;
         margin-left: -5vh;
     }
@@ -896,7 +925,7 @@ As hex codes
         margin-top: 0vh;
         margin-left: 3vw;
     }
-    #secondPageDown {
+    #job1PageDown {
         margin-top: 0vh;
     }
     /*---------JOB 2------------*/
@@ -908,7 +937,7 @@ As hex codes
         margin-top: 20vh;
         margin-left: 3vw;
     }
-    #thirdPageDown {
+    #job2PageDown {
         margin-top: 6vh;
     }
     /*---------JOB 3------------*/
@@ -919,7 +948,7 @@ As hex codes
         margin-top: 18vh;
         margin-left: 3vw;
     }
-    #forthPageDown {
+    #job3PageDown {
         margin-top: 5vh;
     }
     /*----------------------SKILLS-------------------*/
@@ -1000,7 +1029,7 @@ As hex codes
     #intro_switch {
         margin-top: 55vh;
     }
-    #firstPageDown {
+    #bioPageDown {
         margin-top: 69vh;
         margin-left: -5vh;
     }
@@ -1015,13 +1044,13 @@ As hex codes
         padding-bottom: 3vh;
         padding-right: 1vw;
     }
-    #secondPageDown {
+    #job1PageDown {
         margin-top: 4vh;
     }
-    #thirdPageDown {
+    #job2PageDown {
         margin-top: 8vh;
     }
-    #forthPageDown {
+    #job3PageDown {
         margin-top: 7vh;
     }
     #skillsTitle h3 {
@@ -1045,7 +1074,7 @@ As hex codes
     #intro_switch {
         margin-top: 56vh;
     }
-    #firstPageDown {
+    #bioPageDown {
         margin-top: 70vh;
     }
     /*---------------------PROJECTS-------------------*/
@@ -1056,13 +1085,13 @@ As hex codes
         font-size: 1em;
         padding-bottom: 3vh;
     }
-    #secondPageDown {
+    #job1PageDown {
         margin-top: 6vh;
     }
-    #thirdPageDown {
+    #job2PageDown {
         margin-top: 7vh;
     }
-    #forthPageDown {
+    #job3PageDown {
         margin-top: 6vh;
     }
     #skillsTitle h3 {
@@ -1085,7 +1114,7 @@ As hex codes
     #intro_switch {
         margin-left: -1vw;
     }
-    #firstPageDown {
+    #bioPageDown {
         margin-top: 88vh;
         margin-left: -1vh;
     }
@@ -1121,7 +1150,7 @@ As hex codes
         margin-top: 5vh;
         margin-left: 3vw;
     }
-    #secondPageDown {
+    #job1PageDown {
         margin-top: 11vh;
         margin-left: 2.5vh;
     }
@@ -1134,7 +1163,7 @@ As hex codes
         margin-top: 15vh;
         margin-left: 3vw;
     }
-    #thirdPageDown {
+    #job2PageDown {
         margin-top: 18vh;
         margin-left: 2vh;
     }
@@ -1147,7 +1176,7 @@ As hex codes
         margin-top: 15vh;
         margin-left: 3vw;
     }
-    #forthPageDown {
+    #job3PageDown {
         margin-top: 19vh;
         margin-left: 2vh;
     }
@@ -1157,7 +1186,7 @@ As hex codes
     .charts {
         margin-top: 5vh;
     }
-    #fifthPageDown {
+    #skillsPageDown {
         margin-top: 4vh;
         margin-left: 2vh;
     }
@@ -1181,7 +1210,7 @@ As hex codes
     .graph {
         margin-top: 1vh;
     }
-    #sixthPageDown {
+    #infoPageUp {
         margin-top: 5vh;
         margin-left: 2vh;
     }
