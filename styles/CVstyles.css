@@ -16,6 +16,11 @@ body {
     margin: 0
 }
 
+.container-fluid {
+    padding: 0 !important;
+    
+}
+
 .col-sm-3v,
 .col-sm-4v,
 .col-sm-5v,
