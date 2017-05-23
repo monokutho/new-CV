@@ -8,276 +8,286 @@
     <title>Santiago González - Front End Web Developer</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="node_modules/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,300' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600,300italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300,100' rel='stylesheet' type='text/css'>
+
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
-    <link href="styles/font-awesome.min.css" rel="stylesheet" >
-    <link href="styles/chartist.min.css" rel="stylesheet" >
-    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
-    <link href="styles/donut.css" rel="stylesheet" />
+    <link href="styles/chartist.min.css" rel="stylesheet">
+    <link href="styles/CVstyles.css" rel="stylesheet" type="text/css" />
     
 </head>
 
 <body onload="">
-    <section id="one">
+    <div class="container-fluid">
+        <section id="one">
         <div class="container" id="bio">
-            <div class="row intro" id="contactInfo">
-                <div class="col-sm-12 col-md-3 contact"><i class="fa fa-envelope-o" aria-hidden="true"></i><small>santiago.gonzalez.erazo@gmail.com</small></div>
-                <div class="col-sm-12 col-md-3 contact"><i class="fa fa-mobile" aria-hidden="true"></i> +34 674545986</div>
-                <div class="col-sm-12 col-md-3 contact"><i class="fa fa-github" aria-hidden="true"></i> monokutho</div>
-                <div class="col-sm-12 col-md-3 contact"><i class="fa fa-globe" aria-hidden="true"></i> Lleida,Spain</div>
+            <div class="row" id="contactInfo">
+                <div class="col-sx-12 col-sm-4 col-md-4 contact"><i class="fa fa-envelope-o" aria-hidden="true"></i><small> santiago.gonzalez.erazo@gmail.com</small></div>
+                <div class="col-sx-12 col-sm-3 col-md-3 contact"><i class="fa fa-mobile" aria-hidden="true"></i> +34 674545986</div>
+                <div id="github" class="col-sx-12 col-sm-2 col-md-2 contact"><i class="fa fa-github" aria-hidden="true"></i> monokutho</div>
+                <div id="location" class="col-sx-12 col-sm-3 col-md-3 contact"><i class="fa fa-globe" aria-hidden="true"></i> Barcelona, Spain</div>
             </div>
-
-            <div id="title" class="col-sm-12 col-md-12 col-l-12">
-                <h1>SANTIAGO GONZÁLEZ ERAZO</h1>
-                <br>
-                <h2>- Front End Web Developer -</h2>
-                <br>
+            <div class="row">
+                <div class="col-sx-12 col-sm-12 col-md-12 col-l-12 text-center">
+                    <div id="title" class="col-sm-12 col-md-12 col-l-12">
+                        <h1>SANTIAGO GONZÁLEZ ERAZO</h1>
+                        <br>
+                        <h2>- FRONT END WEB DEVELOPER -</h2>
+                        <br>
+                    </div>
+                    <p id="sinopsis" class="col-sx-12 col-sm-12 col-md-12 col-l-12">I have been in the video game industry for the last nine years as an audio designer and music producer. Working alongside programmers and see their code working, gave me an insider perspective, that with time, it evolves into my passion for coding and computer science. With strong determination and self-discipline, I have earned sufficient knowledge of the web development procedure and the tools to succeed at it, through a great deal of practice and online studies and certificates.</p>
+                </div>
             </div>
-            <p id="sinopsis" class="col-sm-12 col-md-12 col-l-12">I have been in the video game industry for the last nine years as an audio designer and music producer. Working alongside programmers and see their code working, gave me an insider perspective, that with time, it evolves into my passion for coding and computer science. With strong determination and self-discipline, I have earned sufficient knowledge of the web development procedure and the tools to succeed at it, through a great deal of practice and online studies and certificates.</p>
-            <a href="#" class="switch">
-                <i id="intro_switch" class="fa fa-toggle-off fa-2x icon-off" aria-hidden="true"></i>
-                <i id="intro_switch" class="fa fa-toggle-on fa-2x icon-on" aria-hidden="true"></i>
-            </a>
-            
-            <a href="#two" class="pageDown">
-                <i id="firstPageDown" class="intro fa fa-arrow-circle-down fa-2x icon-off" aria-hidden="true"></i>
-            </a>
-
+            <div class="row">
+                <div class="col-sx-12 col-sm-12 col-md-12 text-center">
+                    <a href="#" class="switch">
+                        <i id="intro_switch" class="fa fa-toggle-off fa-2x icon-off" aria-hidden="true"></i>
+                        <i id="intro_switch" class="fa fa-toggle-on fa-2x icon-on" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sx-12 col-sm-12 col-md-12 text-center">
+                    <a href="#two">
+                        <i id="bioPageDown" class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
         </div>
 
     </section>
 
     <section id="two">
-        <div class="row" id="workExperience">
-            <div class="row container" id="job1">
-                <div id="jobTitle1" class="col-sm-12 col-md-12">
-                    <h3>Work Experience</h3>
-                </div>
-                <div id="jobImg1" class="col-sm-12 col-md-4">
-                    <img src="img/click1.png">
-                </div>
-                <div id="jobData1" class="col-sm-12 col-md-8">
-                    <h2>Mar 8-Bit Porfolio</h2>
-                    <ul>
-                        <li>The main idea of this website is to show my skills designing a web app with AngularJS, Bootstrap, Node and Gulp.</li>
-                        <li>It is a website for a fictional technology start-up.</li>
-                    </ul>
-                    <div class="row">
-                        <div class="col-sm-12 col-sm-offset-6 col-md-8 col-md-offset-5">
-                            <a href="#job2" class="pageDown">
-                                <i id="secondPageDown" class="intro fa fa-arrow-circle-down fa-2x icon-off" aria-hidden="true"></i>
-                            </a>   
-                        </div>
+
+        <div class="" id="workExperience">
+
+            <div class="container" id="job1">
+
+                <div class="row">
+                    <div id="jobMainTitle" class="col-sx-12 col-sm-12 col-md-12 text-center">
+                        <h1>PROJECTS</h1>
                     </div>
-                    
                 </div>
-                
-            </div>
-            <div class="row container" id="job2">
-                <div class="col-sm-12 col-md-8">
-                    <h2>Titan Company</h2>
-                    <ul>
-                        <li>￼This website shows my skills in jQuery, Bootstrap and the use of open-source ￼libs and its customization to achieve a specific funct</li>
-                        <li>It is a website for a fictional hiking app.</li>
-                    </ul>
+
+                <div class="row jobR">
+
+                    <div id="jobImg1" class="col-sx-12 col-sm-12 col-sm-4v col-md-4 col-lg-4 text-center ">
+                        <img src="img/click1.png">
+                    </div>
+
+                    <div id="jobData1" class="col-sx-12 col-sm-11 col-sm-7v col-md-7 col-lg-7 jobData">
+                        <h3 class="jobTitle" id="jobTitle1">MAR 8-BIT PORTFOLIO</h3>
+                        <ul class="fa-ul">
+                            <li><i class="fa-li fa fa-check"></i>The main idea of this website is to show my skills designing a web app with AngularJS, Bootstrap, Node and Gulp.</li>
+                            <li><i class="fa-li fa fa-check"></i>It is a website for a fictional technology start-up.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sx-12 col-sm-1 col-md-1 col-lg-1 jobPad"></div>
                 </div>
-                <div class="col-sm-12 col-md-4">
-                    <img src="img/click1.png">
-                </div>
-            </div>
-            <div class="row container" id="job3">
-                <div class="col-sm-12 col-md-4">
-                    <img src="img/click1.png">
-                </div>
-                <div class="col-sm-12 col-md-8">
-                    <h2>Click &#38; Hike</h2>
-                    <ul>
-                        <li>The main idea of this website is to show my skills designing a web app with AngularJS, Bootstrap, Node and Gulp.</li>
-                        <li>It is a website for a fictional technology start-up.</li>
-                    </ul>
+
+                <div class="row">
+                    <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12 text-center pageDownBtn">
+                        <a href="#job2">
+                            <i id="job1PageDown" class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
+
+            <div class="container" id="job2">
+                <div class="row jobL">
+                    <div id="jobData2" class="col-sx-12 col-sm-11 col-sm-7v col-md-7 jobData">
+                        <h3 class="jobTitle" id="jobTitle2">TITAN COMPANY</h3>
+                        <ul class="fa-ul">
+                            <li>￼<i class="fa-li fa fa-check"></i>This website shows my skills in jQuery, Bootstrap and the use of open-source ￼libs and its customization to achieve a specific funct</li>
+                            <li><i class="fa-li fa fa-check"></i>It is a website for a fictional hiking app.</li>
+                        </ul>
+                    </div>
+                    <div id="jobImg2" class="col-sx-12 col-sm-11 col-sm-4v col-md-4 text-center">
+                        <img src="img/click1.png">
+                    </div>
+                    <div class="col-sx-12 col-sm-1 col-md-1 jobPad"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sx-12 col-sm-12 col-md-12 text-center pageDownBtn">
+                        <a href="#job3">
+                            <i id="job2PageDown" class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="job3">
+                <div class="row jobR">
+
+                    <div id="jobImg3" class="col-sx-12 col-sm-11 col-sm-4v col-md-4 text-center ">
+                        <img src="img/click1.png">
+                    </div>
+                    <div id="jobData3" class="col-sx-12 col-sm-11 col-sm-7v col-md-7 jobData">
+                        <h3 class="jobTitle" id="jobTitle3">CLICK &#38; HIKE</h3>
+                        <ul class="fa-ul">
+                            <li><i class="fa-li fa fa-check"></i>The main idea of this website is to show my skills designing a web app with AngularJS, Bootstrap, Node and Gulp.</li>
+                            <li><i class="fa-li fa fa-check"></i>It is a website for a fictional technology start-up.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-1 col-md-1 jobPad"></div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-sm-12 col-md-12 pageDownBtn">
+                        <a href="#three">
+                            <i id="job3PageDown" class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
 
-    <section id="three">
-        <div class="row title text-center">
-        <div class="col-md-12">
-            <h1>SKILLS</h1>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="row subtitles text-center">
-            <h4>Programming Langs &#38 Libs</h4>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e1"></div>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e4"></div>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e7"></div>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e10"></div>
-        </div>
-    </div>
-    </div>
-    <div class="col-md-4">
-        <div class="row subtitles text-center">
-            <h4>Frameworks &#38 Enviroments</h4>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e2"></div>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e5"></div>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e8"></div>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e11"></div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="row subtitles text-center">
-            <h4>Utilities</h4>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e3"></div>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e6"></div>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e9"></div>
-        </div>
-        <div class="row row-chart">
-            <div id="chart-e12"></div>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <button class="btn btn-primary" type="submit">Button</button>
-        </div>
-    </div>
-    </section>
+    <section id="three" class="container">
 
-    <section id="four">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 info" id="education">
-                    <h2>EDUCATION</h2>
-                    <ul>
-                        <li>2015-2016 || “ Full Stack Web Developer Specialization ￼”. The Hong Kong University of Science and Technology – ONLINE Studies.</li>
-                        <li>2012-2013 || “M.Des in Videogame Development”. Universitat Pompeu Fabra - Barcelona, Spain.</li>
-                        <li>2001-2006 || “B.A in Music; minor in Sound Engineering”. Pontificia Universidad Javeriana – Bogota, Colombia.</li>
-                    </ul>
-                </div>
-                <div class="col-sm-12 col-md-6 info" id="achievements">
-                    <h2>ACHIEVEMENTS</h2>
-                    <ul>
-                        <li>9.01x: Effective Thinking Through Mathematics - The University of Texas System</li>
-                        <li>Creative Programming for Digital Media and Mobile Apps - GoldSmith Creative</li>
-                        <li>Serious and Playful Science of Android Apps - University of Illinois</li>
-                    </ul>
-                    <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-6 info" id="interest">
-                    <h2>INTERESTS</h2>
-                    <p>Video games, coding, playing music(guitar, bass and keys), audio design, biking and football.</p>
-                </div>
-                <div class="col-sm-12 col-md-6 info" id="languages">
-                    <h2>LANGUAGES</h2>
-                    <ul>
-                        <li>English || Professional working proficiency
-                            <div class="graph">
-                                <div id="blueCircle"></div>
-                                <div id="blueCircle"></div>
-                                <div id="blueCircle"></div>
-                                <div id="blueCircle"></div>
-                                <div id="whiteCircle"></div>
-                            </div>
-                        </li>
-                        <li>Spanish || Native
-                            <br>
-                            <div class="graph">
-                                <div id="blueCircle"></div>
-                                <div id="blueCircle"></div>
-                                <div id="blueCircle"></div>
-                                <div id="blueCircle"></div>
-                                <div id="blueCircle"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="row text-center">
+            <div id="skillsTitle" class="col-sx-12 col-sm-12 col-md-12">
+                <h3>SKILLS</h3></div>
         </div>
-    </section>
 
-    <section id="five">
         <div class="row">
-            <div class="col-sm-12 col-md-12">
-                <audio id="cAudio">
-                    <source src="/media/c_note.mp3" type="audio/mpeg"></source>
-                    <source src="/media/c_note.ogg" type="audio/ogg"></source>
-                    <source src="/media/c_note.wav" type="audio/wav"></source>
-                </audio>
-                <audio id="dAudio">
-                    <source src="/media/d_note.mp3" type="audio/mpeg"></source>
-                    <source src="/media/d_note.ogg" type="audio/ogg"></source>
-                    <source src="/media/d_note.wav" type="audio/wav"></source>
-                </audio>
-                <audio id="eAudio">
-                    <source src="/media/e_note.mp3" type="audio/mpeg"></source>
-                    <source src="/media/e_note.ogg" type="audio/ogg"></source>
-                    <source src="/media/e_note.wav" type="audio/wav"></source>
-                </audio>
-                <audio id="fAudio">
-                    <source src="/media/f_note.mp3" type="audio/mpeg"></source>
-                    <source src="/media/f_note.ogg" type="audio/ogg"></source>
-                    <source src="/media/f_note.wav" type="audio/wav"></source>
-                </audio>
-                <audio id="gAudio">
-                    <source src="/media/g_note.mp3" type="audio/mpeg"></source>
-                    <source src="/media/g_note.ogg" type="audio/ogg"></source>
-                    <source src="/media/g_note.wav" type="audio/wav"></source>
-                </audio>
-                <audio id="aAudio">
-                    <source src="/media/a_note.mp3" type="audio/mpeg"></source>
-                    <source src="/media/a_note.ogg" type="audio/ogg"></source>
-                    <source src="/media/a_note.wav" type="audio/wav"></source>
-                </audio>
-                <audio id="bAudio">
-                    <source src="/media/b_note.mp3" type="audio/mpeg"></source>
-                    <source src="/media/b_note.ogg" type="audio/ogg"></source>
-                    <source src="/media/b_note.wav" type="audio/wav"></source>
-                </audio>
-                <div id="instrument">
-                    <div id="c" class="box"></div>
-                    <div id="d" class="box"></div>
-                    <div id="e" class="box"></div>
-                    <div id="f" class="box"></div>
-                    <div id="g" class="box"></div>
-                    <div id="a" class="box"></div>
-                    <div id="b" class="box"></div>
+            <div class="col-sm-1 col-sm-3v col-md-1 bootPadSkills"></div>
+            <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts" id="chartsLeft">
+                <div class="row subtitles text-center">
+                    <h3>Langs &#38 Libs</h3>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e1"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e4"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e7"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e10"></div>
+                </div>
+            </div>
+
+            <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts" id="chartsMiddle">
+                <div class="row subtitles text-center">
+                    <h3>Frameworks</h3>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e2"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e5"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e8"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e11"></div>
+                </div>
+            </div>
+            <div class="col-sx-12 col-sm-3 col-sm-3v col-md-3 charts" id="chartsRight">
+                <div class="row subtitles text-center">
+                    <h3>Utilities</h3>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e3"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e6"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e9"></div>
+                </div>
+                <div class="row row-chart">
+                    <div id="chart-e12"></div>
                 </div>
             </div>
         </div>
+
+
+        <div class="row">
+            <div class="col-sx-12 col-sm-12 col-md-12 text-center">
+                <a href="#four" class="pageDownBtn skillBtn">
+                    <i id="skillsPageDown" class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
     </section>
+
+    <section id="four" class="container">
+        <div class="row">
+            <div class="col-sm-1 col-md-1 bootPadEdu"></div>
+            <div class="col-sx-12 col-sm-6 col-md-6 info" id="education">
+                <h3>EDUCATION</h3>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-graduation-cap"></i>2015-2016 || Full Stack Web Developer Specialization / The Hong Kong University of Science and Technology – ONLINE Studies.</li>
+                    <li><i class="fa-li fa fa-graduation-cap"></i>2012-2013 || M.Des in Videogame Development / Universitat Pompeu Fabra - Barcelona, Spain.</li>
+                    <li><i class="fa-li fa fa-graduation-cap"></i>2001-2006 || B.A in Music; Sound Engineering minor / Pontificia Universidad Javeriana – Bogota, Colombia.</li>
+                </ul>
+            </div>
+            <div class="col-sx-12 col-sm-5 col-md-5 info" id="achievements">
+                <h3>ACHIEVEMENTS</h3>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-trophy"></i>9.01x: Effective Thinking Through Mathematics / The University of Texas System</li>
+                    <li><i class="fa-li fa fa-trophy"></i>Creative Programming for Digital Media and Mobile Apps / GoldSmith Creative</li>
+                    <li><i class="fa-li fa fa-trophy"></i>Serious and Playful Science of Android Apps / University of Illinois</li>
+                </ul>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 col-md-1 bootPadEdu"></div>
+            <div class="col-sx-12 col-sm-5 col-md-5 info" id="interest">
+                <h3>INTERESTS</h3>
+                <p>Video games, coding, playing music (guitar, bass and keys), audio design, biking and football.</p>
+            </div>
+            <div class="col-sx-12 col-sm-6 col-md-6 info" id="languages">
+                <h3>LANGUAGES</h3>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-language"></i>English || Professional working proficiency
+                        <br/>
+                        <div class="graph">
+                            <div id="blueCircle"></div>
+                            <div id="blueCircle"></div>
+                            <div id="blueCircle"></div>
+                            <div id="blueCircle"></div>
+                            <div id="whiteCircle"></div>
+                        </div>
+                    </li>
+                    <li><i class="fa-li fa fa-language"></i>Spanish || Native
+                        <br>
+                        <div class="graph">
+                            <div id="blueCircle"></div>
+                            <div id="blueCircle"></div>
+                            <div id="blueCircle"></div>
+                            <div id="blueCircle"></div>
+                            <div id="blueCircle"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sx-12 col-sm-12 col-md-12 text-center">
+                <a href="#one" class="pageDownBtn skillBtn">
+                    <i id="infoPageUp" class="fa fa-chevron-up fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    </div>
+
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="scripts/chartist.min.js"></script>
     <script src="scripts/chartist-plugin-fill-donut.js"></script>
-    <script src="scripts/skillDonuts.js"></script>
     <script src="scripts/script.js"></script>
-    <script src="scripts/index.js"></script>
 </body>
 
 </html>

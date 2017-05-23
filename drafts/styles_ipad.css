@@ -1,0 +1,377 @@
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    
+    #one {
+        background-position:30% 50%;
+    }
+    
+    #title h2 {
+        font-size: 25px;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+    
+    #intro_switch {
+        margin-top: 550px;
+        margin-left: 12px;
+    }
+
+    #firstPageDown {
+        margin-top: 670px;
+        margin-left: 15px
+    }
+    
+    /*--------------------------------------Projects-----------------------------------------*/
+    
+    #workExperience .container {
+        height: 100vh;
+    }
+    
+    .jobDataR {
+        color: white;
+        border-radius: 20px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .jobDataR li {
+        font-size: 22px;
+    }
+
+    .jobDataL {
+        color: white;
+        border-radius: 20px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .jobDataL li {
+        font-size: 22px;
+    }
+
+    #jobTitle {
+        padding-top: 50px;
+        color: #055C58;
+        opacity: 1;
+    }
+
+    #jobImg1 {
+        margin-left: -20px;
+        opacity: 1;
+        }
+
+    #jobData1 {
+        margin-left: 60px;
+        margin-top: 140px;
+        opacity: 1;
+        background-color: #018E89;
+    }
+    
+    #secondPageDown {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    
+    #job2 {
+        padding-top: 40px;
+        background-color: #C9F3F3;
+
+    }
+
+    #jobImg2 {
+        margin-top: 100px;
+        margin-left: 0px
+    }
+
+    #jobData2 {
+        margin-left: 20px;
+        margin-top: 180px;
+        opacity: 1;
+        background-color: #055C58;
+
+    }
+    
+    #thirdPageDown {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    
+    #forthPageDown {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    
+    #fifthPageDown {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    
+    #five {
+        display: none;
+    }
+    
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    
+    .container {
+        height: auto;
+    }
+    h1 {
+        font-size: 45px;
+        font-style: bold;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 26.4px;
+        opacity: 0.8;
+    }
+
+    h2 {
+        font-size: 40px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    h4 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    img {
+        padding: 60px;
+        }
+
+    li {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    /*------------------INTRO - Section One----------------------------*/
+    
+    #one {
+        background-image: url(/img/cv-intro.jpg);
+        background-position:50% 50%;
+        height: 100vh;
+
+    }
+    
+    #contactInfo .contact {
+        font-size: 12px;
+    }
+    
+    #title{
+        margin-top: 300px;
+    }
+
+    #title h2 {
+        font-size: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    #sinopsis {
+        margin-top: 220px;
+        font-size: 25px;
+    }
+
+    #intro_switch {
+        margin-top: 650px;
+        margin-left: -12px;
+    }
+
+    #firstPageDown {
+        margin-top: 800px;
+        margin-left: -10px
+    }
+    
+    /*---------------------------PROJECTS----------------------------*/
+    
+    .workBtn {
+        padding-top: 20px;
+        margin-left: -3px;
+    }
+    
+    .jobDataR h3 {
+        font-size: 30px;
+    }
+    
+    .jobDataR li {
+        font-size: 20px;
+    }
+    
+    .jobDataL h3 {
+        font-size: 30px;
+    }
+
+    .jobDataL li {
+        font-size: 20px;
+        }
+    
+    .jobPad{
+        width: 50px;
+    }
+
+    #jobImg1 {
+        margin-left: 0px;
+    }
+
+    #jobData1 {
+        margin-left: 30px;
+        margin-top: 0px;
+        opacity: 1;
+        background-color: #018E89;
+
+    }
+
+    #job2 {
+        padding-top: 0px;
+        background-color: #C9F3F3;
+
+    }
+
+    #jobImg2 {
+        margin-left: 160px
+    }
+
+    #jobData2 {
+        margin-left: 30px;
+        margin-top: 50px;
+        opacity: 1;
+        background-color: #055C58;
+
+    }
+
+    #job3 {
+        padding-top: 0px;
+
+    }
+    
+    /*--------------------------SKILLS - Section Three---------------------------------*/
+
+    #three {
+        height: auto;
+    }
+    #skillsTitle {
+        font-size: 40px;
+        padding: 10px;
+        font-style: bold;
+        font-variant: normal;
+        font-weight: 500;
+        color: #018E89;
+    }
+
+    .bootPadSkills {
+        margin-left: -30px;
+    }
+
+
+
+    .charts {
+        background-color: #018E89;
+        padding-bottom: 20px;
+        color: white;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .skillBtn {
+        margin-left: -2px;
+        }
+    
+    /*--------------------------INFORMATION - Section Four------------------------------------*/
+
+    #four {
+        height: auto;
+        margin-left: 0px;
+        padding-top: 25px;
+        background-color: #E2FBFB;
+       
+    }
+
+    #four li {
+        padding: 10px;
+    }
+
+    .bootPadEdu {
+        margin-left: -150px   
+    }
+
+    .edBtn {
+        margin-left: 29px;
+    }
+
+    .info {
+        margin: 10px;
+        border: 1px solid #018E89 ;
+        border-radius: 20px;
+        background-color: #018E89 ;
+        color: white;
+        }
+
+    #education {
+        height: inherit;
+        margin-left: 20px;
+    }
+
+    #interest {
+        margin-right: 0px;
+        margin-left: 20px;
+        background-color: #055C58;
+    }
+
+    #interest p {
+        padding: 30px;
+        font-size: 16px;
+    }
+
+    #achievements {
+        height: inherit;
+        background-color: #055C58;
+    }
+
+    #languages {
+        margin-top: 0px;
+        }
+
+    .graph{
+        display: inline-flex;
+        margin-top: 10px;
+
+
+    }
+
+    #blueCircle {
+        background: #055C58 ;
+        width: 25px;
+        height: 25px;
+        border: 3px solid #002624;
+        border-radius: 50%;
+        margin-right: 5px; 
+
+    }
+    #whiteCircle {
+        background: white;
+        width: 25px;
+        height: 25px;
+        border: 3px solid #002624;
+        border-radius: 50%;
+
+    }
+    
+    /*----------------------------MUSIC BOX--------------------------------------*/
+    #five {
+        display: none;
+    }
+}

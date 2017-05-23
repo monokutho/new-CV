@@ -1,0 +1,444 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #BCD9D9;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;/* se ve MUY BIEN, sobretodo en mayusculas y tamaño grande*/
+    /*font-family: 'Source Code Pro', serif;*/
+    font-weight: 200;
+    font-size: 20px;
+    width:100%;
+}
+.container {
+    width: 100%;
+    align-content: center;
+    height: 100vh;
+    margin: 0
+}
+
+h1 {
+	font-size: 55px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    opacity: 0.8;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h4 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+img {
+    padding: 60px;
+    }
+
+li {
+    font-size: 16px;
+    padding: 20px;
+}
+
+
+
+/*------------------INTRO - Section One----------------------------*/
+
+#one {
+    background-image: url(/img/cv-intro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+
+#bio{
+    background-color: transparent;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+.contact {
+    font-family: 'Open Sans', sans-serif;
+    padding: 7px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#contactInfo {
+    height: 40px;
+    color: white;
+    opacity: 0;
+}
+
+#title{
+    position: absolute;
+    margin-top: 220px;
+}
+
+#title h2 {
+    font-size: 35px;
+    background-color: #018E89;
+    margin-left: 270px;
+    margin-right: 270px;
+    border: 3px solid #002624;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
+#sinopsis {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    margin-top: 220px;
+    display: none;
+}
+
+#intro_switch {
+    margin-top: 500px;
+    position: absolute;
+    color: white;
+    margin-left: -23px;
+}
+
+#firstPageDown {
+    margin-top: 600px;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    margin-left: -21px
+}
+
+.switch .icon-on {
+    display: none;
+} 
+
+
+/*----------------------PROJECTS - Section Two-------------------------------*/
+
+
+#two {
+    background-color: #E2FBFB;
+}
+
+
+#workExperience{
+    height: inherit;
+}
+
+.workBtn {
+    margin-left: 0px;
+}
+
+.jobTitleR{
+    border-radius: 20px;
+    background-color: #002624;
+    border: 3px solid #BCD9D9;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.jobDataR {
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.jobDataR li {
+    font-size: 22px;
+}
+
+.jobDataL {
+    color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.jobDataL li {
+    font-size: 22px;
+}
+
+#jobTitle {
+    padding-top: 20px;
+    color: #055C58;
+    opacity: 1;
+}
+
+#jobImg1 {
+    opacity: 1;
+    }
+
+#jobData1 {
+    margin-top: 130px;
+    opacity: 1;
+    background-color: #018E89;
+}
+
+#job2 {
+    padding-top: 84px;
+    background-color: #C9F3F3;
+    
+}
+
+#jobImg2 {
+    opacity: 1;
+    margin-top: 20px;
+}
+
+#jobData2 {
+    margin-top: 130px;
+    opacity: 1;
+    background-color: #055C58;
+    
+}
+
+#job3 {
+    padding-top: 74px;
+    
+}
+
+#jobImg3 {
+    opacity: 1;
+    }
+
+#jobData3 {
+    margin-top: 130px;
+    opacity: 1;
+    background-color: #018E89;
+}
+
+/*--------------------------SKILLS - Section Three---------------------------------*/
+
+
+#three {
+    background-color: #C9F3F3;
+    color: #055C58;
+}
+
+#skillsTitle {
+    font-size: 40px;
+    padding: 10px;
+    font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	color: #018E89;
+}
+
+#chartsMiddle {
+    background-color: #055C58;
+}
+
+.bootPadSkills {
+    margin-left: -43px;
+}
+
+
+
+.charts {
+    background-color: #018E89;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.skillBtn {
+    margin-left: -2px;
+    }
+
+/*--------------------------INFORMATION - Section Four------------------------------------*/
+
+#four {
+    margin-left: -27px;
+    padding-top: 25px;
+    background-color: #E2FBFB;
+}
+
+#four li {
+    padding: 10px;
+}
+
+.bootPadEdu {
+    margin-left: -50px   
+}
+
+.edBtn {
+    margin-left: 29px;
+}
+
+.info {
+    margin: 15px;
+    border: 1px solid #018E89 ;
+    border-radius: 20px;
+    background-color: #018E89 ;
+    color: white;
+    }
+
+#education {
+    height: inherit;
+    margin-left: 50px;
+}
+
+#interest {
+    margin-right: 15px;
+    margin-left: 50px;
+    background-color: #055C58;
+}
+
+#interest p {
+    padding: 40px;
+    font-size: 16px;
+}
+
+#achievements {
+    height: inherit;
+    background-color: #055C58;
+}
+
+#languages {
+    margin-top: 0px;
+    }
+
+.graph{
+    display: inline-flex;
+    margin-top: 10px;
+    
+    
+}
+
+#blueCircle {
+    background: #055C58 ;
+    width: 25px;
+    height: 25px;
+    border: 3px solid #002624;
+    border-radius: 50%;
+    margin-right: 5px; 
+    
+}
+#whiteCircle {
+    background: white;
+    width: 25px;
+    height: 25px;
+    border: 3px solid #002624;
+    border-radius: 50%;
+    
+}
+
+/*Pallete
+
+ As hex codes
+#C6DAE4 el mas blanco
+.color-primary-0 { color: #28546C }	/ Main Primary color /
+.color-primary-1 { color: #6F90A2 }
+.color-primary-2 { color: #477187 }
+.color-primary-3 { color: #113B51 }
+.color-primary-4 { color: #032436 }
+
+Pallete II
+
+As hex codes 
+
+.color-primary-0 { color: #055C58 }	/Main Primary color
+.color-primary-1 { color: #018E89 }
+.color-primary-2 { color: #07716D }
+.color-primary-3 { color: #00403E }
+.color-primary-4 { color: #002624 }
+
+.color-complement-0 { color: #974708 }	/Main Complement color
+.color-complement-1 { color: #EB6902 }
+.color-complement-2 { color: #BA590B }
+.color-complement-3 { color: #692F00 }
+.color-complement-4 { color: #3E1C00 }
+
+
+*/
+
+
+
+/*-----------------------MUSIC BOX - Section Five----------------------------
+
+
+#instrument {
+    margin-top: 0px;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    padding: 19%;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float:left;
+}
+
+INDIVIDUAL BOXES/KEYS
+
+#c {
+    background-color: #3e181b;
+    border: 3px solid #db1d2d;
+}
+
+
+#d {
+    background-color: #422018;
+    border: 3px solid #f0421c;
+}
+
+
+#e {
+    background-color: #45391b;
+    border: 3px solid #fec02d;
+}
+
+
+#f {
+    background-color: #193c29;
+    border: 3px solid #20d071;
+}
+
+
+#g {
+    background-color: #18323e;
+    border: 3px solid #1a9ddb;
+}
+
+
+#a {
+    background-color: #331f35;
+    border: 3px solid #a13fad;
+} 
+
+
+#b {
+    background-color: #43293d;
+    border: 3px solid #f26fd4;
+}
+*/
+
+/*-----------------------------MEDIA QUERYS---------------------------------------*/
+
+
+
+
